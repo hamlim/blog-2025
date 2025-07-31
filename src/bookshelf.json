@@ -461,5 +461,12 @@
     "status": "read",
     "dateStarted": "July 3 2025",
     "dateFinished": "July 30 2025"
+  },
+  {
+    "title": "The Lost World",
+    "author": "Michael Crichton",
+    "url": "https://www.goodreads.com/book/show/8650",
+    "status": "reading",
+    "dateStarted": "July 31 2025"
   }
 ]
