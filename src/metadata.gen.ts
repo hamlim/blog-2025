@@ -5,6 +5,25 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let metadata: Array<HydratedFrontmatter> = [
   {
+    "title": "On Taste",
+    "slug": "on-taste",
+    "path": "/2025/august/on-taste",
+    "date": 1754250106806,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Random",
+      "Thoughts"
+    ],
+    "description": "_Taste_ is the last key differentiator between those who win and those who lose.",
+    "month": "august",
+    "year": 2025,
+    "ogImage": "/og-images/on-taste.png",
+    "blueskyPostUri": "",
+    "location": "On a train from Portland, ME to Boston, MA",
+    "lastModified": null
+  },
+  {
     "title": "Zombie Retros",
     "slug": "zombie-retros",
     "path": "/2025/july/zombie-retros",
@@ -551,7 +570,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "ogImage": "/og-images/team-memes.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3ldoy5umql22v",
     "location": "",
-    "lastModified": 1750380818000
+    "lastModified": 1753125470000
   },
   {
     "title": "A Quick Look at Import Maps",

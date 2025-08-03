@@ -4,6 +4,25 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let recentPosts: Array<HydratedFrontmatter> = [
   {
+    "title": "On Taste",
+    "slug": "on-taste",
+    "path": "/2025/august/on-taste",
+    "date": 1754250106806,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Random",
+      "Thoughts"
+    ],
+    "description": "_Taste_ is the last key differentiator between those who win and those who lose.",
+    "month": "august",
+    "year": 2025,
+    "ogImage": "/og-images/on-taste.png",
+    "blueskyPostUri": "",
+    "location": "On a train from Portland, ME to Boston, MA",
+    "lastModified": null
+  },
+  {
     "title": "31",
     "slug": "31",
     "path": "/2025/july/31",
@@ -82,26 +101,6 @@ export let recentPosts: Array<HydratedFrontmatter> = [
     "month": "june",
     "year": 2025,
     "ogImage": "/og-images/async-class-creation-in-javascript.png",
-    "location": "",
-    "lastModified": 1750380818000
-  },
-  {
-    "title": "In Review - The Belroy Transit Workpack Pro v2",
-    "slug": "belroy-transit-workpack-pro-v2",
-    "path": "/2025/may/belroy-transit-workpack-pro-v2",
-    "date": 1748517015808,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Product Review",
-      "Backpack",
-      "Gear",
-      "Review"
-    ],
-    "description": "I semi-recently bought a Belroy Transit Workpack Pro v2 backpack, and after using it for about 9 months now I figured I'd write up some of my thoughts on it!",
-    "month": "may",
-    "year": 2025,
-    "ogImage": "/og-images/belroy-transit-workpack-pro-v2.png",
     "location": "",
     "lastModified": 1750380818000
   }

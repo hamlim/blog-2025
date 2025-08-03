@@ -4,7 +4,7 @@
         <title>Matt Hamlin's Blog</title>
         <link>https://matthamlin.me</link>
         <description>Matt Hamlin's Blog</description>
-        <lastBuildDate>Mon, 21 Jul 2025 19:17:42 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 03 Aug 2025 19:43:59 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Matt by Hand</generator>
         <language>en</language>
@@ -14,6 +14,34 @@
             <link>https://matthamlin.me</link>
         </image>
         <copyright>© 2025 Matt Hamlin</copyright>
+        <item>
+            <title><![CDATA[On Taste]]></title>
+            <link>https://matthamlin.me//2025/august/on-taste</link>
+            <guid>https://matthamlin.me//2025/august/on-taste</guid>
+            <pubDate>Sun, 03 Aug 2025 19:41:46 GMT</pubDate>
+            <description><![CDATA[_Taste_ is the last key differentiator between those who win and those who lose.]]></description>
+            <content:encoded><![CDATA[<p><em>Taste</em> is the last key differentiator between those who win and those who lose.</p>
+<p>There used to be a variety of differentiators that would distinguish between winners and losers, such as speed or novelty, nowadays however Taste remains as one of the last.</p>
+<p>Speed (as in how fast you can get to market, or how fast you operate) is quickly approaching a speed limit, thanks in part to AI tools for going from idea to <em>half baked</em> product extremely quick.</p>
+<p>Novelty (as in having a new idea, or approaching from a new perspective) is also generally becoming more of a general commodity than a rare strike of luck. Or rather it might take more luck to come up with a new idea now than it might have 100 years ago.</p>
+<p>The lasting differentiator appears to be <em>taste</em>.</p>
+<p>Apple is a great example of a company that oozes taste - it might not be for everyone but you know an Apple product when you see one.</p>
+<p>However, just because you have taste, doesn&#x27;t immediately put you on the fast track to winning - you still often need to put in a lot of effort or have some other differentiator to win.</p>
+<p>To put it into simple terms:</p>
+<ul>
+<li>Anyone can have a good idea (not many then also have the fortitude or resources to execute on the idea)</li>
+<li>Increasingly tools like LLMs (but think about the internet before that, and then personal computers before then, etc...) make it both easier to create something, and do that far faster than it would have before</li>
+<li><em>Taste</em> can&#x27;t easily be:<!-- -->
+<ul>
+<li>Replicated: usually knock-off products can still do well - but they rarely win</li>
+<li>Taught: if you have taste for one area, it might not always be transferrable to another area</li>
+<li>Derived: You don&#x27;t often discover taste through experimentation or <button data-state="closed" data-slot="tooltip-trigger"><abbr title="Fuck Around and Find Out">fafo</abbr></button>-ing</li>
+</ul>
+</li>
+</ul>]]></content:encoded>
+            <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
+            <enclosure url="https://matthamlin.me/og-images/on-taste.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Zombie Retros]]></title>
             <link>https://matthamlin.me//2025/july/zombie-retros</link>
