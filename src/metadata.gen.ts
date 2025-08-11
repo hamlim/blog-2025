@@ -5,6 +5,24 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let metadata: Array<HydratedFrontmatter> = [
   {
+    "title": "Recipe: Horchata Protein Latte",
+    "slug": "recipe-horchata-protein-latte",
+    "path": "/2025/august/recipe-horchata-protein-latte",
+    "date": 1754914452114,
+    "status": "public",
+    "type": "micropost",
+    "tags": [
+      "micropost",
+      "recipe"
+    ],
+    "month": "august",
+    "year": 2025,
+    "ogImage": "/og-images/recipe-horchata-protein-latte.png",
+    "blueskyPostUri": "",
+    "location": "Boston, MA",
+    "lastModified": null
+  },
+  {
     "title": "On Taste",
     "slug": "on-taste",
     "path": "/2025/august/on-taste",
@@ -21,7 +39,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "ogImage": "/og-images/on-taste.png",
     "blueskyPostUri": "",
     "location": "On a train from Portland, ME to Boston, MA",
-    "lastModified": null
+    "lastModified": 1754250249000
   },
   {
     "title": "Zombie Retros",

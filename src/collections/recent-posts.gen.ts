@@ -20,7 +20,7 @@ export let recentPosts: Array<HydratedFrontmatter> = [
     "ogImage": "/og-images/on-taste.png",
     "blueskyPostUri": "",
     "location": "On a train from Portland, ME to Boston, MA",
-    "lastModified": null
+    "lastModified": 1754250249000
   },
   {
     "title": "31",

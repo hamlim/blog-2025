@@ -358,6 +358,8 @@ import type { getConfig as File_2025AprilServerSideRenderingCompatibleCssTheming
 // prettier-ignore
 import type { getConfig as File_2025AugustOnTaste_getConfig } from './pages/2025/august/on-taste';
 // prettier-ignore
+import type { getConfig as File_2025AugustRecipeHorchataProteinLatte_getConfig } from './pages/2025/august/recipe-horchata-protein-latte';
+// prettier-ignore
 import type { getConfig as File_2025FebruaryCursorAndObsidian_getConfig } from './pages/2025/february/cursor-and-obsidian';
 // prettier-ignore
 import type { getConfig as File_2025FebruaryOnFileSystemRoutingConventions_getConfig } from './pages/2025/february/on-file-system-routing-conventions';
@@ -611,6 +613,7 @@ type Page =
 | ({ path: '/2025/april/podcasting-by-hand' } & GetConfigResponse<typeof File_2025AprilPodcastingByHand_getConfig>)
 | ({ path: '/2025/april/server-side-rendering-compatible-css-theming' } & GetConfigResponse<typeof File_2025AprilServerSideRenderingCompatibleCssTheming_getConfig>)
 | ({ path: '/2025/august/on-taste' } & GetConfigResponse<typeof File_2025AugustOnTaste_getConfig>)
+| ({ path: '/2025/august/recipe-horchata-protein-latte' } & GetConfigResponse<typeof File_2025AugustRecipeHorchataProteinLatte_getConfig>)
 | ({ path: '/2025/february/cursor-and-obsidian' } & GetConfigResponse<typeof File_2025FebruaryCursorAndObsidian_getConfig>)
 | ({ path: '/2025/february/on-file-system-routing-conventions' } & GetConfigResponse<typeof File_2025FebruaryOnFileSystemRoutingConventions_getConfig>)
 | ({ path: '/2025/february/quick-tip-specific-local-module-definitions' } & GetConfigResponse<typeof File_2025FebruaryQuickTipSpecificLocalModuleDefinitions_getConfig>)

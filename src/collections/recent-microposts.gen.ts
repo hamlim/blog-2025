@@ -4,6 +4,24 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let recentMicroposts: Array<HydratedFrontmatter> = [
   {
+    "title": "Recipe: Horchata Protein Latte",
+    "slug": "recipe-horchata-protein-latte",
+    "path": "/2025/august/recipe-horchata-protein-latte",
+    "date": 1754914452114,
+    "status": "public",
+    "type": "micropost",
+    "tags": [
+      "micropost",
+      "recipe"
+    ],
+    "month": "august",
+    "year": 2025,
+    "ogImage": "/og-images/recipe-horchata-protein-latte.png",
+    "blueskyPostUri": "",
+    "location": "Boston, MA",
+    "lastModified": null
+  },
+  {
     "title": "Zombie Retros",
     "slug": "zombie-retros",
     "path": "/2025/july/zombie-retros",
@@ -75,22 +93,5 @@ export let recentMicroposts: Array<HydratedFrontmatter> = [
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lslorqxyck26",
     "location": "Flying from BOS to PDX",
     "lastModified": 1751028932000
-  },
-  {
-    "title": "<Blank> Driven Development",
-    "slug": "blank-driven-development",
-    "path": "/2025/june/blank-driven-development",
-    "date": 1750690970088,
-    "status": "public",
-    "type": "micropost",
-    "tags": [
-      "micropost"
-    ],
-    "month": "june",
-    "year": 2025,
-    "ogImage": "/og-images/blank-driven-development.png",
-    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lsbunpzuvc2a",
-    "location": "Boston, MA",
-    "lastModified": 1750691628000
   }
 ]

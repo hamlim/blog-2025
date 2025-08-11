@@ -4,7 +4,7 @@
         <title>Matt Hamlin's Blog</title>
         <link>https://matthamlin.me</link>
         <description>Matt Hamlin's Blog</description>
-        <lastBuildDate>Sun, 03 Aug 2025 19:43:59 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 11 Aug 2025 12:22:52 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Matt by Hand</generator>
         <language>en</language>
@@ -14,6 +14,30 @@
             <link>https://matthamlin.me</link>
         </image>
         <copyright>© 2025 Matt Hamlin</copyright>
+        <item>
+            <title><![CDATA[Recipe: Horchata Protein Latte]]></title>
+            <link>https://matthamlin.me//2025/august/recipe-horchata-protein-latte</link>
+            <guid>https://matthamlin.me//2025/august/recipe-horchata-protein-latte</guid>
+            <pubDate>Mon, 11 Aug 2025 12:14:12 GMT</pubDate>
+            <description><![CDATA[Status Update: August 11, 2025]]></description>
+            <content:encoded><![CDATA[<p>This is a bit different from some of my other short updates, but I figured I&#x27;d share it anyway.</p>
+<p>I&#x27;ve been tinkering a bit with my go-to morning beverage, for a long while it was a hot (or iced) latte (at least since I met my fiance who got me really into lattes), fortunately enough we have a decent brevil espresso machine at home so its been pretty easy to make our own coffee.</p>
+<p>As of late though I&#x27;ve been cutting back a bit on my whole milk intake (I think the common joke is that lattes are more of a milk beverage than a coffee beverage), and I&#x27;ve also been drinking more and more Core Power protein shakes (if you haven&#x27;t tried one before, they&#x27;re amazing - stop reading this now and go try one!)</p>
+<p>What I&#x27;ve now started doing is making a &quot;Horchata Protein Latte&quot;, which is a bit like a shaken espresso latte, but with Core Power (the vanilla 26g of protein variety) instead of traditional milk.</p>
+<p>The recipe (if you can call it that):</p>
+<h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="ingredients">Ingredients:</h3>
+<ul>
+<li>Cinnamon</li>
+<li>Vanilla Core Power</li>
+<li>Espresso</li>
+<li>Ice</li>
+</ul>
+<h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="recipe">Recipe:</h3>
+<p>Take some kind of sealable container (I&#x27;m using a new weck jar), add in a bit of ground cinnamon. Pour your shot of espresso into the container, and then add ice and a splash (or as much as you like) of the Core Power. Finally seal the container and then shake for about 30 seconds or so.</p>
+<p>That&#x27;s it! It tastes a bit like Horchata (thanks to the vanilla and cinnamon), and also has some pretty good macros (26g of protein, only 6g of carbs) and tastes amazing!</p>]]></content:encoded>
+            <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
+            <enclosure url="https://matthamlin.me/og-images/recipe-horchata-protein-latte.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[On Taste]]></title>
             <link>https://matthamlin.me//2025/august/on-taste</link>
