@@ -20,7 +20,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "ogImage": "/og-images/recipe-horchata-protein-latte.png",
     "blueskyPostUri": "",
     "location": "Boston, MA",
-    "lastModified": null
+    "lastModified": 1754915022000
   },
   {
     "title": "On Taste",
