@@ -356,6 +356,8 @@ import type { getConfig as File_2025AprilPodcastingByHand_getConfig } from './pa
 // prettier-ignore
 import type { getConfig as File_2025AprilServerSideRenderingCompatibleCssTheming_getConfig } from './pages/2025/april/server-side-rendering-compatible-css-theming';
 // prettier-ignore
+import type { getConfig as File_2025AugustLinkWhatTheHellIsGoingOnRightNow_getConfig } from './pages/2025/august/link-what-the-hell-is-going-on-right-now';
+// prettier-ignore
 import type { getConfig as File_2025AugustOnTaste_getConfig } from './pages/2025/august/on-taste';
 // prettier-ignore
 import type { getConfig as File_2025AugustRecipeHorchataProteinLatte_getConfig } from './pages/2025/august/recipe-horchata-protein-latte';
@@ -612,6 +614,7 @@ type Page =
 | ({ path: '/2024/september/nextjs-with-deno-v2' } & GetConfigResponse<typeof File_2024SeptemberNextjsWithDenoV2_getConfig>)
 | ({ path: '/2025/april/podcasting-by-hand' } & GetConfigResponse<typeof File_2025AprilPodcastingByHand_getConfig>)
 | ({ path: '/2025/april/server-side-rendering-compatible-css-theming' } & GetConfigResponse<typeof File_2025AprilServerSideRenderingCompatibleCssTheming_getConfig>)
+| ({ path: '/2025/august/link-what-the-hell-is-going-on-right-now' } & GetConfigResponse<typeof File_2025AugustLinkWhatTheHellIsGoingOnRightNow_getConfig>)
 | ({ path: '/2025/august/on-taste' } & GetConfigResponse<typeof File_2025AugustOnTaste_getConfig>)
 | ({ path: '/2025/august/recipe-horchata-protein-latte' } & GetConfigResponse<typeof File_2025AugustRecipeHorchataProteinLatte_getConfig>)
 | ({ path: '/2025/february/cursor-and-obsidian' } & GetConfigResponse<typeof File_2025FebruaryCursorAndObsidian_getConfig>)

@@ -4,7 +4,7 @@
         <title>Matt Hamlin's Blog</title>
         <link>https://matthamlin.me</link>
         <description>Matt Hamlin's Blog</description>
-        <lastBuildDate>Tue, 19 Aug 2025 12:02:54 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 23 Aug 2025 01:07:59 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Matt by Hand</generator>
         <language>en</language>
@@ -14,6 +14,30 @@
             <link>https://matthamlin.me</link>
         </image>
         <copyright>© 2025 Matt Hamlin</copyright>
+        <item>
+            <title><![CDATA[Link: What the hell is going on right now?]]></title>
+            <link>https://matthamlin.me//2025/august/link-what-the-hell-is-going-on-right-now</link>
+            <guid>https://matthamlin.me//2025/august/link-what-the-hell-is-going-on-right-now</guid>
+            <pubDate>Sat, 23 Aug 2025 00:58:24 GMT</pubDate>
+            <description><![CDATA[Status Update: August 22, 2025]]></description>
+            <content:encoded><![CDATA[<p>I recently (much like most folks who browse the orange site) stumbled across this excellent blog post titled <a href="https://catskull.net/what-the-hell-is-going-on-right-now.html" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">What the hell is going on right now?</a>, which I think pretty accurately summarizes how the field of software engineering is changing week-to-week and even day-to-day right now thanks to AI.</p>
+<p>I recommend giving the whole post a read - it&#x27;s not too long and reads quite easily too.</p>
+<p>Here&#x27;s some of the snippets that stood out to me:</p>
+<blockquote>
+<p>In a recent company town-hall, I watched as a team of junior engineers demoed their latest work. I couldn’t tell you what exactly it did, or even what it was supposed to do - it didn’t seem like they themselves understood. However, at a large enough organization, it’s not about what you do, its about what people think you do. Championing their “success”, a senior manager goaded them into bragging about their use of “AI” tools to which they responded “This is four thousand lines of code written by Claude”. Applause all around.</p>
+</blockquote>
+<p>Absolutely insane that they applaude how much code has been written that the team may not fully understand!</p>
+<blockquote>
+<p>Here’s the thing - we want to help. We want to build good things. Things that work well, that make people’s lives easier. We want to teach people how to do software engineering! Any engineer is standing entirely on the shoulders of their mentors and managers who’ve invested time and energy into them and their careers.</p>
+</blockquote>
+<h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="my-take">My Take:</h3>
+<p>I almost entirely agree with the blog post - and I&#x27;ve seen the same examples listed in the article myself as well.</p>
+<p>I do however think that AI in this field can be a tool for good, but I think we as an industry need to learn how to employ it in a way that it is useful and not just building up a wall of tech debt either.</p>
+<p>I&#x27;m also extremely worried about what it will do to junior and early stage career engineers in the industry - not only are many leadership teams stopping hiring of these folks because they think AI can do what they were doing, but we&#x27;re also breaking the mentorship connection that so many senior+ engineers valued so greatly when they were juniors too!</p>
+<p>I think we&#x27;re in for some tumultuous times in the software engineering field.</p>]]></content:encoded>
+            <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
+            <enclosure url="https://matthamlin.me/og-images/link-what-the-hell-is-going-on-right-now.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Recipe: Horchata Protein Latte]]></title>
             <link>https://matthamlin.me//2025/august/recipe-horchata-protein-latte</link>

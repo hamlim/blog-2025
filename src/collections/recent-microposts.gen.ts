@@ -4,6 +4,24 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let recentMicroposts: Array<HydratedFrontmatter> = [
   {
+    "title": "Link: What the hell is going on right now?",
+    "slug": "link-what-the-hell-is-going-on-right-now",
+    "path": "/2025/august/link-what-the-hell-is-going-on-right-now",
+    "date": 1755910704752,
+    "status": "public",
+    "type": "micropost",
+    "tags": [
+      "micropost",
+      "Links"
+    ],
+    "month": "august",
+    "year": 2025,
+    "ogImage": "/og-images/link-what-the-hell-is-going-on-right-now.png",
+    "blueskyPostUri": "",
+    "location": "Boston, MA",
+    "lastModified": null
+  },
+  {
     "title": "Recipe: Horchata Protein Latte",
     "slug": "recipe-horchata-protein-latte",
     "path": "/2025/august/recipe-horchata-protein-latte",
@@ -19,7 +37,7 @@ export let recentMicroposts: Array<HydratedFrontmatter> = [
     "ogImage": "/og-images/recipe-horchata-protein-latte.png",
     "blueskyPostUri": "",
     "location": "Boston, MA",
-    "lastModified": 1754915022000
+    "lastModified": 1755605056000
   },
   {
     "title": "Zombie Retros",
@@ -75,23 +93,5 @@ export let recentMicroposts: Array<HydratedFrontmatter> = [
     "blueskyPostUri": "",
     "location": "Gold Beach, Vashon, WA.",
     "lastModified": 1751899155000
-  },
-  {
-    "title": "Polish is Important",
-    "slug": "polish-is-important",
-    "path": "/2025/june/polish-is-important",
-    "date": 1751028430594,
-    "status": "public",
-    "type": "micropost",
-    "tags": [
-      "micropost",
-      "Software Development"
-    ],
-    "month": "june",
-    "year": 2025,
-    "ogImage": "/og-images/polish-is-important.png",
-    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lslorqxyck26",
-    "location": "Flying from BOS to PDX",
-    "lastModified": 1751028932000
   }
 ]

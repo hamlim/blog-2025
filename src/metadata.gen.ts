@@ -5,6 +5,24 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let metadata: Array<HydratedFrontmatter> = [
   {
+    "title": "Link: What the hell is going on right now?",
+    "slug": "link-what-the-hell-is-going-on-right-now",
+    "path": "/2025/august/link-what-the-hell-is-going-on-right-now",
+    "date": 1755910704752,
+    "status": "public",
+    "type": "micropost",
+    "tags": [
+      "micropost",
+      "Links"
+    ],
+    "month": "august",
+    "year": 2025,
+    "ogImage": "/og-images/link-what-the-hell-is-going-on-right-now.png",
+    "blueskyPostUri": "",
+    "location": "Boston, MA",
+    "lastModified": null
+  },
+  {
     "title": "Recipe: Horchata Protein Latte",
     "slug": "recipe-horchata-protein-latte",
     "path": "/2025/august/recipe-horchata-protein-latte",
@@ -20,7 +38,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "ogImage": "/og-images/recipe-horchata-protein-latte.png",
     "blueskyPostUri": "",
     "location": "Boston, MA",
-    "lastModified": 1754915022000
+    "lastModified": 1755605056000
   },
   {
     "title": "On Taste",
