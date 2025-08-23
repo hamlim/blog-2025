@@ -5,6 +5,25 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let metadata: Array<HydratedFrontmatter> = [
   {
+    "title": "Quick Git",
+    "slug": "git-commit-push",
+    "path": "/2025/august/git-commit-push",
+    "date": 1755911397866,
+    "status": "public",
+    "type": "snippet",
+    "tags": [
+      "snippet",
+      "Git",
+      "Bash"
+    ],
+    "month": "august",
+    "year": 2025,
+    "ogImage": "/og-images/git-commit-push.png",
+    "blueskyPostUri": "",
+    "location": "Boston, MA",
+    "lastModified": null
+  },
+  {
     "title": "Link: What the hell is going on right now?",
     "slug": "link-what-the-hell-is-going-on-right-now",
     "path": "/2025/august/link-what-the-hell-is-going-on-right-now",
@@ -20,7 +39,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "ogImage": "/og-images/link-what-the-hell-is-going-on-right-now.png",
     "blueskyPostUri": "",
     "location": "Boston, MA",
-    "lastModified": null
+    "lastModified": 1755911334000
   },
   {
     "title": "Recipe: Horchata Protein Latte",

@@ -4,6 +4,25 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let recentSnippets: Array<HydratedFrontmatter> = [
   {
+    "title": "Quick Git",
+    "slug": "git-commit-push",
+    "path": "/2025/august/git-commit-push",
+    "date": 1755911397866,
+    "status": "public",
+    "type": "snippet",
+    "tags": [
+      "snippet",
+      "Git",
+      "Bash"
+    ],
+    "month": "august",
+    "year": 2025,
+    "ogImage": "/og-images/git-commit-push.png",
+    "blueskyPostUri": "",
+    "location": "Boston, MA",
+    "lastModified": null
+  },
+  {
     "title": "Multi-step Native HTML Forms",
     "slug": "multi-step-native-html-forms",
     "path": "/2025/july/multi-step-native-html-forms",

@@ -4,7 +4,7 @@
         <title>Matt Hamlin's Blog</title>
         <link>https://matthamlin.me</link>
         <description>Matt Hamlin's Blog</description>
-        <lastBuildDate>Sat, 23 Aug 2025 01:07:59 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 23 Aug 2025 01:15:01 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Matt by Hand</generator>
         <language>en</language>
@@ -14,6 +14,33 @@
             <link>https://matthamlin.me</link>
         </image>
         <copyright>© 2025 Matt Hamlin</copyright>
+        <item>
+            <title><![CDATA[Quick Git]]></title>
+            <link>https://matthamlin.me//2025/august/git-commit-push</link>
+            <guid>https://matthamlin.me//2025/august/git-commit-push</guid>
+            <pubDate>Sat, 23 Aug 2025 01:09:57 GMT</pubDate>
+            <content:encoded><![CDATA[<p>This is a really simple <code>git</code> alias that I think I found originally on Twitter a while back - and since then it&#x27;s been my go-to way to work on repos that I&#x27;m effectively the only contributor:</p>
+<pre class="shiki shiki-themes vitesse-light vitesse-dark" style="background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee" tabindex="0"><code><span class="line"><span style="color:#A0ADA0;--shiki-dark:#758575DD"># the git zsh plugin aliases gp as git push</span></span>
+<span class="line"><span style="color:#A0ADA0;--shiki-dark:#758575DD"># but we want to override it</span></span>
+<span class="line"><span style="color:#998418;--shiki-dark:#B8A965">unalias</span><span style="color:#B56959;--shiki-dark:#C98A7D"> gp</span></span>
+<span class="line"><span style="color:#59873A;--shiki-dark:#80A665">gp</span><span style="color:#999999;--shiki-dark:#666666">()</span><span style="color:#999999;--shiki-dark:#666666"> {</span></span>
+<span class="line"><span style="color:#59873A;--shiki-dark:#80A665">  git</span><span style="color:#B56959;--shiki-dark:#C98A7D"> add</span><span style="color:#B56959;--shiki-dark:#C98A7D"> .</span></span>
+<span class="line"><span style="color:#59873A;--shiki-dark:#80A665">  git</span><span style="color:#B56959;--shiki-dark:#C98A7D"> commit</span><span style="color:#A65E2B;--shiki-dark:#C99076"> -m</span><span style="color:#B5695977;--shiki-dark:#C98A7D77"> &quot;</span><span style="color:#B56959;--shiki-dark:#C98A7D">$1</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&quot;</span></span>
+<span class="line"><span style="color:#59873A;--shiki-dark:#80A665">  git</span><span style="color:#B56959;--shiki-dark:#C98A7D"> push</span></span>
+<span class="line"><span style="color:#999999;--shiki-dark:#666666">}</span></span></code></pre>
+<p>Usage:</p>
+<pre class="shiki shiki-themes vitesse-light vitesse-dark" style="background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee" tabindex="0"><code><span class="line"><span style="color:#59873A;--shiki-dark:#80A665">gp</span><span style="color:#B5695977;--shiki-dark:#C98A7D77"> &quot;</span><span style="color:#B56959;--shiki-dark:#C98A7D">commit message here</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&quot;</span></span></code></pre>
+<p>Explanation:</p>
+<p>This little alias/function:</p>
+<ul>
+<li>Adds all changes to be staged</li>
+<li>Commits with the provided message</li>
+<li>Pushes it to the remote tracking branch</li>
+</ul>
+<p>This little pattern has been so useful that it&#x27;s prevented me from experimenting with <code>jj</code> because this is just too easy. I rarely need to use git branches for most of the things I do as side projects so this has been my go to!</p>]]></content:encoded>
+            <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
+            <enclosure url="https://matthamlin.me/og-images/git-commit-push.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Link: What the hell is going on right now?]]></title>
             <link>https://matthamlin.me//2025/august/link-what-the-hell-is-going-on-right-now</link>

@@ -1,0 +1,46 @@
+---
+title: Quick Git
+slug: git-commit-push
+path: /2025/august/git-commit-push
+date: 1755911397866
+status: public
+type: snippet
+tags:
+  - snippet
+  - Git
+  - Bash
+month: august
+year: 2025
+ogImage: /og-images/git-commit-push.png
+blueskyPostUri: ""
+location: "Boston, MA"
+---
+
+This is a really simple `git` alias that I think I found originally on Twitter a while back - and since then it's been my go-to way to work on repos that I'm effectively the only contributor:
+
+```sh
+# the git zsh plugin aliases gp as git push
+# but we want to override it
+unalias gp
+gp() {
+  git add .
+  git commit -m "$1"
+  git push
+}
+```
+
+Usage:
+
+```sh
+gp "commit message here"
+```
+
+Explanation:
+
+This little alias/function:
+
+- Adds all changes to be staged
+- Commits with the provided message
+- Pushes it to the remote tracking branch
+
+This little pattern has been so useful that it's prevented me from experimenting with `jj` because this is just too easy. I rarely need to use git branches for most of the things I do as side projects so this has been my go to!

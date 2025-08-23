@@ -19,7 +19,7 @@ export let recentMicroposts: Array<HydratedFrontmatter> = [
     "ogImage": "/og-images/link-what-the-hell-is-going-on-right-now.png",
     "blueskyPostUri": "",
     "location": "Boston, MA",
-    "lastModified": null
+    "lastModified": 1755911334000
   },
   {
     "title": "Recipe: Horchata Protein Latte",
