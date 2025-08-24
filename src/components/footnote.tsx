@@ -1,13 +1,16 @@
 import {
   Tooltip,
-  TooltipTrigger,
   TooltipContent,
+  TooltipTrigger,
 } from "#/components/ui/tooltip";
 
 export function FootnoteRef({
   id,
   children,
-}: { id: string; children: React.ReactNode }) {
+}: {
+  id: string;
+  children: React.ReactNode;
+}) {
   return (
     <>
       <span className="inline-flex md:hidden">
@@ -39,7 +42,10 @@ export function FootnoteRef({
 export function Footnote({
   id,
   children,
-}: { id: string; children: React.ReactNode }) {
+}: {
+  id: string;
+  children: React.ReactNode;
+}) {
   return (
     <p
       id={`fnref-${id}`}

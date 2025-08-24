@@ -3,9 +3,8 @@
 import { FolderGit2, Home, Library, Newspaper, UserRound } from "lucide-react";
 import type { ReactNode } from "react";
 import { Link, useRouter } from "waku";
-import { cn } from "#/utils/cn";
-
 import type { RouteConfig } from "waku/router";
+import { cn } from "#/utils/cn";
 
 interface NavItem {
   path: string;

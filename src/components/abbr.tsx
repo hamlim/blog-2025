@@ -1,8 +1,8 @@
 import type { ComponentProps } from "react";
 import {
   Tooltip,
-  TooltipTrigger,
   TooltipContent,
+  TooltipTrigger,
 } from "#/components/ui/tooltip";
 
 export function Abbr(props: ComponentProps<"abbr">) {

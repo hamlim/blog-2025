@@ -1,7 +1,11 @@
 import { ProseContainer } from "#/components/container";
 import { Heading } from "#/components/heading";
 
-export default function NotFound({ notFound }: { notFound: Array<string> }) {
+export default function NotFound({
+  notFound: __notFound,
+}: {
+  notFound: Array<string>;
+}) {
   return (
     <main className="pt-10">
       <title>404</title>

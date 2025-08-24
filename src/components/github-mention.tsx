@@ -2,11 +2,7 @@ import { GithubIcon } from "lucide-react";
 import type { ReactNode } from "react";
 import { Anchor } from "./anchor";
 
-export function GitHubMention({
-  children,
-}: {
-  children: string;
-}): ReactNode {
+export function GitHubMention({ children }: { children: string }): ReactNode {
   return (
     <Anchor
       target="_blank"

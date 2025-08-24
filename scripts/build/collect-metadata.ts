@@ -19,7 +19,7 @@ async function getLastModifiedTimestamp(filePath: string): Promise<number> {
       `Error getting last modified timestamp for ${filePath}:`,
       error,
     );
-    return new Date().getTime();
+    return Date.now();
   }
 }
 

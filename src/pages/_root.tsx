@@ -1,5 +1,4 @@
 import type { ReactNode } from "react";
-import "../styles.css";
 
 function themeCheck() {
   let prefersDarkModeQuery = window.matchMedia("(prefers-color-scheme: dark)");
@@ -19,7 +18,7 @@ export default function Root({ children }: { children: ReactNode }) {
       <head suppressHydrationWarning />
       <body>
         <script
-          // biome-ignore lint/security/noDangerouslySetInnerHtml: <explanation>
+          // biome-ignore lint/security/noDangerouslySetInnerHtml: theme detection needs to be done earliest as possible
           dangerouslySetInnerHTML={{ __html: `(${themeCheck.toString()})()` }}
         />
         {children}

@@ -2,11 +2,7 @@ import type { ReactNode } from "react";
 import { Anchor } from "./anchor";
 import { BlueskyIcon } from "./bluesky-icon";
 
-export function BlueskyMention({
-  children,
-}: {
-  children: string;
-}): ReactNode {
+export function BlueskyMention({ children }: { children: string }): ReactNode {
   return (
     <Anchor
       target="_blank"

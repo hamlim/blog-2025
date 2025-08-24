@@ -5,7 +5,9 @@ import { FormattedDateTime } from "./formatted-date";
 
 export function PostLastModified({
   frontmatter,
-}: { frontmatter: HydratedFrontmatter }): ReactNode {
+}: {
+  frontmatter: HydratedFrontmatter;
+}): ReactNode {
   let match = metadata.find((post) => post.path === frontmatter.path);
   if (!match) {
     return null;

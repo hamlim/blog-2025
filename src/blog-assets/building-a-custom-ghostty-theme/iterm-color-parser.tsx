@@ -23,7 +23,7 @@ function useCopyToClipboard() {
 
 // Helper function to convert RGB to Hex
 function rgbToHex(r: number, g: number, b: number) {
-  // biome-ignore lint/style/useTemplate: <explanation>
+  // biome-ignore lint/style/useTemplate: code is confusing
   return "#" + ((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1);
 }
 

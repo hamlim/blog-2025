@@ -2,11 +2,7 @@ import { TwitterIcon } from "lucide-react";
 import type { ReactNode } from "react";
 import { Anchor } from "./anchor";
 
-export function TwitterMention({
-  children,
-}: {
-  children: string;
-}): ReactNode {
+export function TwitterMention({ children }: { children: string }): ReactNode {
   return (
     <Anchor
       target="_blank"

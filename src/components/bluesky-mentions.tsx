@@ -3,11 +3,7 @@ import type { ReactNode } from "react";
 import { useEffect, useState } from "react";
 import { Anchor } from "#/components/anchor";
 
-export function BlueskyMentions({
-  children,
-}: {
-  children: ReactNode;
-}) {
+export function BlueskyMentions({ children }: { children: ReactNode }) {
   let [currentURL, setCurrentURL] = useState<string | null>(null);
 
   useEffect(() => {

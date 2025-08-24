@@ -1,7 +1,7 @@
 import { evaluate } from "@mdx-js/mdx";
 import { Fragment } from "react";
-import { renderToString } from "react-dom/server";
 import * as jsx from "react/jsx-runtime";
+import { renderToString } from "react-dom/server";
 import { useMDXComponents as defaultUseMDXComponents } from "#utils/mdx-components.js";
 import { mdxConfig } from "../mdx-config";
 

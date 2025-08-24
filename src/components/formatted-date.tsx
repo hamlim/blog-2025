@@ -5,7 +5,9 @@ import { formatDate, formatDateTime } from "#/utils/date-formatting";
 
 export function FormattedDate({
   date,
-}: { date: string | number | Date }): ReactNode {
+}: {
+  date: string | number | Date;
+}): ReactNode {
   let [formattedDate, setFormattedDate] = useState("....");
 
   useEffect(() => {
@@ -17,7 +19,9 @@ export function FormattedDate({
 
 export function FormattedDateTime({
   date,
-}: { date: string | number | Date }): ReactNode {
+}: {
+  date: string | number | Date;
+}): ReactNode {
   let [formattedDateTime, setFormattedDateTime] = useState("....");
 
   useEffect(() => {

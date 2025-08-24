@@ -3,6 +3,7 @@ import { ErrorBoundary } from "#/components/error-boundary";
 import { Nav } from "#/components/nav";
 import { QuickFindLoader } from "#/components/quick-find.loader";
 import { TooltipProvider } from "#/components/ui/tooltip";
+import "../styles.css";
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (

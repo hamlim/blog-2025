@@ -15,7 +15,7 @@ export interface MarqueeProps extends ComponentProps<"div"> {
 }
 
 export function Marquee(props: MarqueeProps) {
-  // @ts-ignore
-  // biome-ignore lint/a11y/noDistractingElements: <explanation>
+  // @ts-expect-error
+  // biome-ignore lint/a11y/noDistractingElements: marquee
   return <marquee {...props} />;
 }

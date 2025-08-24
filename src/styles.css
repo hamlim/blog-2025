@@ -17,11 +17,16 @@
 /* Shiki */
 html.dark .shiki,
 html.dark .shiki span {
+  /* biome-ignore lint/complexity/noImportantStyles: shiki */
   color: var(--shiki-dark) !important;
+  /* biome-ignore lint/complexity/noImportantStyles: shiki */
   background-color: var(--shiki-dark-bg) !important;
   /* Optional, if you also want font styles */
+  /* biome-ignore lint/complexity/noImportantStyles: shiki */
   font-style: var(--shiki-dark-font-style) !important;
+  /* biome-ignore lint/complexity/noImportantStyles: shiki */
   font-weight: var(--shiki-dark-font-weight) !important;
+  /* biome-ignore lint/complexity/noImportantStyles: shiki */
   text-decoration: var(--shiki-dark-text-decoration) !important;
 }
 
@@ -104,7 +109,7 @@ html {
   --popover: oklch(0.97 0.01 80.72);
   --popover-foreground: oklch(0.3 0.04 30.2);
   --primary: oklch(0.52 0.13 144.17);
-  --primary-foreground: oklch(1.0 0 0);
+  --primary-foreground: oklch(1 0 0);
   --secondary: oklch(0.96 0.02 147.64);
   --secondary-foreground: oklch(0.43 0.12 144.31);
   --muted: oklch(0.94 0.01 74.42);
@@ -123,12 +128,12 @@ html {
   --sidebar: oklch(0.94 0.01 74.42);
   --sidebar-foreground: oklch(0.3 0.04 30.2);
   --sidebar-primary: oklch(0.52 0.13 144.17);
-  --sidebar-primary-foreground: oklch(1.0 0 0);
+  --sidebar-primary-foreground: oklch(1 0 0);
   --sidebar-accent: oklch(0.9 0.05 146.04);
   --sidebar-accent-foreground: oklch(0.43 0.12 144.31);
   --sidebar-border: oklch(0.88 0.02 74.64);
   --sidebar-ring: oklch(0.52 0.13 144.17);
-  --destructive-foreground: oklch(1.0 0 0);
+  --destructive-foreground: oklch(1 0 0);
   --font-sans: Montserrat, sans-serif;
   --font-serif: Merriweather, serif;
   --font-mono: Source Code Pro, monospace;
@@ -142,15 +147,15 @@ html {
   --spacing: 0.25rem;
   --shadow-2xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
   --shadow-xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
-  --shadow-sm: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px
-    hsl(0 0% 0% / 0.1);
+  --shadow-sm:
+    0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
   --shadow: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
-  --shadow-md: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 2px 4px -1px
-    hsl(0 0% 0% / 0.1);
-  --shadow-lg: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 4px 6px -1px
-    hsl(0 0% 0% / 0.1);
-  --shadow-xl: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 8px 10px -1px
-    hsl(0 0% 0% / 0.1);
+  --shadow-md:
+    0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 2px 4px -1px hsl(0 0% 0% / 0.1);
+  --shadow-lg:
+    0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 4px 6px -1px hsl(0 0% 0% / 0.1);
+  --shadow-xl:
+    0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 8px 10px -1px hsl(0 0% 0% / 0.1);
   --shadow-2xl: 0 1px 3px 0px hsl(0 0% 0% / 0.25);
   --tracking-normal: 0em;
 }
@@ -202,15 +207,15 @@ html {
   --spacing: 0.25rem;
   --shadow-2xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
   --shadow-xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
-  --shadow-sm: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px
-    hsl(0 0% 0% / 0.1);
+  --shadow-sm:
+    0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
   --shadow: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
-  --shadow-md: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 2px 4px -1px
-    hsl(0 0% 0% / 0.1);
-  --shadow-lg: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 4px 6px -1px
-    hsl(0 0% 0% / 0.1);
-  --shadow-xl: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 8px 10px -1px
-    hsl(0 0% 0% / 0.1);
+  --shadow-md:
+    0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 2px 4px -1px hsl(0 0% 0% / 0.1);
+  --shadow-lg:
+    0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 4px 6px -1px hsl(0 0% 0% / 0.1);
+  --shadow-xl:
+    0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 8px 10px -1px hsl(0 0% 0% / 0.1);
   --shadow-2xl: 0 1px 3px 0px hsl(0 0% 0% / 0.25);
 }
 

@@ -1,5 +1,7 @@
 import { Post } from "#/components/post";
-import Content, { frontmatter } from "#/mdx/2025/august/recipe-horchata-protein-latte.mdx";
+import Content, {
+  frontmatter,
+} from "#/mdx/2025/august/recipe-horchata-protein-latte.mdx";
 
 export default function Page() {
   return (

@@ -8,7 +8,7 @@ await generateMetadata();
 await generateRSS();
 await generateOGImages();
 
-let subscription = await watcher.subscribe(mdxRootDir, async (err, events) => {
+let subscription = await watcher.subscribe(mdxRootDir, async () => {
   await generateMetadata();
   await generateRSS();
   await generateOGImages();

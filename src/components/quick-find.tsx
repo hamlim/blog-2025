@@ -10,6 +10,7 @@ import {
 } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useRouter } from "waku";
+import type { RouteConfig } from "waku/router";
 import {
   CommandDialog,
   CommandEmpty,
@@ -22,8 +23,6 @@ import {
 import { metadata } from "#/metadata.gen";
 import { projects } from "#/projects-list";
 import { formatDate } from "#/utils/date-formatting";
-
-import type { RouteConfig } from "waku/router";
 
 export function QuickFind() {
   let [open, setOpen] = useState(false);

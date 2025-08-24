@@ -21,7 +21,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "ogImage": "/og-images/git-commit-push.png",
     "blueskyPostUri": "",
     "location": "Boston, MA",
-    "lastModified": null
+    "lastModified": 1755911760000
   },
   {
     "title": "Link: What the hell is going on right now?",

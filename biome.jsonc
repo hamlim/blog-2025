@@ -1,14 +1,12 @@
 {
-  "$schema": "https://biomejs.dev/schemas/1.8.3/schema.json",
+  "$schema": "https://biomejs.dev/schemas/2.2.2/schema.json",
   "vcs": {
     "enabled": true,
     "clientKind": "git",
     "useIgnoreFile": true,
     "defaultBranch": "origin/main"
   },
-  "organizeImports": {
-    "enabled": true
-  },
+  "assist": { "actions": { "source": { "organizeImports": "on" } } },
   "formatter": {
     "enabled": true,
     "indentStyle": "space",
@@ -28,25 +26,27 @@
         "noUnusedTemplateLiteral": "off"
       },
       "suspicious": {
-        "noExplicitAny": "off"
+        "noExplicitAny": "off",
+        "noUnknownAtRules": "off"
       }
     }
   },
   "overrides": [
     {
-      "include": [
-        "./worker-configuration.d.ts",
-        "./src/pages.gen.ts",
-        "./src/metadata.gen.ts",
-        "./src/collections/top-posts.gen.ts",
-        "./src/collections/recent-posts.gen.ts"
+      "includes": [
+        "worker-configuration.d.ts",
+        "src/pages.gen.ts",
+        "src/metadata.gen.ts",
+        "src/collections/top-posts.gen.ts",
+        "src/collections/recent-posts.gen.ts",
+        "src/collections/recent-microposts.gen.ts",
+        "src/collections/recent-snippets.gen.ts",
+        "image-cache.json"
       ],
       "linter": {
         "enabled": false
       },
-      "organizeImports": {
-        "enabled": false
-      },
+      "assist": { "actions": { "source": { "organizeImports": "off" } } },
       "formatter": {
         "enabled": false
       }
