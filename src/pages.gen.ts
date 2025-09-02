@@ -356,6 +356,8 @@ import type { getConfig as File_2025AprilPodcastingByHand_getConfig } from './pa
 // prettier-ignore
 import type { getConfig as File_2025AprilServerSideRenderingCompatibleCssTheming_getConfig } from './pages/2025/april/server-side-rendering-compatible-css-theming';
 // prettier-ignore
+import type { getConfig as File_2025AugustDependabotHell_getConfig } from './pages/2025/august/dependabot-hell';
+// prettier-ignore
 import type { getConfig as File_2025AugustGitCommitPush_getConfig } from './pages/2025/august/git-commit-push';
 // prettier-ignore
 import type { getConfig as File_2025AugustLinkWhatTheHellIsGoingOnRightNow_getConfig } from './pages/2025/august/link-what-the-hell-is-going-on-right-now';
@@ -411,6 +413,8 @@ import type { getConfig as File_2025MarchReplacingDropboxCaptureWithRaycast_getC
 import type { getConfig as File_2025MayBelroyTransitWorkpackProV2_getConfig } from './pages/2025/may/belroy-transit-workpack-pro-v2';
 // prettier-ignore
 import type { getConfig as File_2025MayWebsiteRedesignV10_getConfig } from './pages/2025/may/website-redesign-v10';
+// prettier-ignore
+import type { getConfig as File_2025SeptemberLinkNextjsIsInfuriating_getConfig } from './pages/2025/september/link-nextjs-is-infuriating';
 // prettier-ignore
 import type { getConfig as File_NotFound_getConfig } from './pages/[...notFound]';
 // prettier-ignore
@@ -616,6 +620,7 @@ type Page =
 | ({ path: '/2024/september/nextjs-with-deno-v2' } & GetConfigResponse<typeof File_2024SeptemberNextjsWithDenoV2_getConfig>)
 | ({ path: '/2025/april/podcasting-by-hand' } & GetConfigResponse<typeof File_2025AprilPodcastingByHand_getConfig>)
 | ({ path: '/2025/april/server-side-rendering-compatible-css-theming' } & GetConfigResponse<typeof File_2025AprilServerSideRenderingCompatibleCssTheming_getConfig>)
+| ({ path: '/2025/august/dependabot-hell' } & GetConfigResponse<typeof File_2025AugustDependabotHell_getConfig>)
 | ({ path: '/2025/august/git-commit-push' } & GetConfigResponse<typeof File_2025AugustGitCommitPush_getConfig>)
 | ({ path: '/2025/august/link-what-the-hell-is-going-on-right-now' } & GetConfigResponse<typeof File_2025AugustLinkWhatTheHellIsGoingOnRightNow_getConfig>)
 | ({ path: '/2025/august/on-taste' } & GetConfigResponse<typeof File_2025AugustOnTaste_getConfig>)
@@ -644,6 +649,7 @@ type Page =
 | ({ path: '/2025/march/replacing-dropbox-capture-with-raycast' } & GetConfigResponse<typeof File_2025MarchReplacingDropboxCaptureWithRaycast_getConfig>)
 | ({ path: '/2025/may/belroy-transit-workpack-pro-v2' } & GetConfigResponse<typeof File_2025MayBelroyTransitWorkpackProV2_getConfig>)
 | ({ path: '/2025/may/website-redesign-v10' } & GetConfigResponse<typeof File_2025MayWebsiteRedesignV10_getConfig>)
+| ({ path: '/2025/september/link-nextjs-is-infuriating' } & GetConfigResponse<typeof File_2025SeptemberLinkNextjsIsInfuriating_getConfig>)
 | ({ path: '/[...notFound]' } & GetConfigResponse<typeof File_NotFound_getConfig>)
 | ({ path: '/__sandbox' } & GetConfigResponse<typeof File_Sandbox_getConfig>)
 | { path: '/_root'; render: 'dynamic' }

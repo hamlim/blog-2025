@@ -5,6 +5,41 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let metadata: Array<HydratedFrontmatter> = [
   {
+    "title": "Link: Next.js Is Infuriating",
+    "slug": "link-nextjs-is-infuriating",
+    "path": "/2025/september/link-nextjs-is-infuriating",
+    "date": 1756821323897,
+    "status": "public",
+    "type": "micropost",
+    "tags": [
+      "micropost",
+      "Links"
+    ],
+    "month": "september",
+    "year": 2025,
+    "ogImage": "/og-images/link-nextjs-is-infuriating.png",
+    "blueskyPostUri": "",
+    "location": "Somewhere over the Atlantic between Edinburgh Scotland and Boston MA",
+    "lastModified": null
+  },
+  {
+    "title": "Dependabot Hell",
+    "slug": "dependabot-hell",
+    "path": "/2025/august/dependabot-hell",
+    "date": 1756314642129,
+    "status": "public",
+    "type": "micropost",
+    "tags": [
+      "micropost"
+    ],
+    "month": "august",
+    "year": 2025,
+    "ogImage": "/og-images/dependabot-hell.png",
+    "blueskyPostUri": "",
+    "location": "Boston, MA",
+    "lastModified": 1756314841000
+  },
+  {
     "title": "Quick Git",
     "slug": "git-commit-push",
     "path": "/2025/august/git-commit-push",

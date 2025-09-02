@@ -4,7 +4,7 @@
         <title>Matt Hamlin's Blog</title>
         <link>https://matthamlin.me</link>
         <description>Matt Hamlin's Blog</description>
-        <lastBuildDate>Sun, 24 Aug 2025 15:52:58 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 02 Sep 2025 14:00:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Matt by Hand</generator>
         <language>en</language>
@@ -14,6 +14,31 @@
             <link>https://matthamlin.me</link>
         </image>
         <copyright>© 2025 Matt Hamlin</copyright>
+        <item>
+            <title><![CDATA[Link: Next.js Is Infuriating]]></title>
+            <link>https://matthamlin.me//2025/september/link-nextjs-is-infuriating</link>
+            <guid>https://matthamlin.me//2025/september/link-nextjs-is-infuriating</guid>
+            <pubDate>Tue, 02 Sep 2025 13:55:23 GMT</pubDate>
+            <description><![CDATA[Status Update: September 2, 2025]]></description>
+            <content:encoded><![CDATA[<p><a href="https://blog.meca.sh/3lxoty3shjc2z" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">Next.js Is Infuriating</a></p>
+<p>I feel like I don&#x27;t need to add much else to this topic - I used to enjoy using Next.js for a lot of things but have since pulled back and have been really enjoying <a href="https://waku.gg" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">Waku</a>.</p>
+<div class="rounded-lg bg-muted px-4 py-0.5"><p>We (ab)used the same <code>headers</code> trick that the author shares in the above post while at Wayfair to share request context between our custom server and our RSC entrypoints, see also <a href="https://github.com/hamlim/cursed-next-middleware" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">this repo</a> demonstrating it!</p></div>]]></content:encoded>
+            <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
+            <enclosure url="https://matthamlin.me/og-images/link-nextjs-is-infuriating.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Dependabot Hell]]></title>
+            <link>https://matthamlin.me//2025/august/dependabot-hell</link>
+            <guid>https://matthamlin.me//2025/august/dependabot-hell</guid>
+            <pubDate>Wed, 27 Aug 2025 17:10:42 GMT</pubDate>
+            <description><![CDATA[Status Update: August 27, 2025]]></description>
+            <content:encoded><![CDATA[<p>I honestly don&#x27;t know how folks stay on top of dependabot PRs if you maintain anything more than 5 repos!</p>
+<p>I&#x27;m currently trying to go through a backlog of 400+ dependabot related PRs in GitHub and it&#x27;s a pain, I think this is why most folks just opt to turn it off or ignore these updates until it becomes a bigger issue...</p>
+<hr/>
+<p>I&#x27;m probably not the only one feeling this pain either, <button data-state="closed" data-slot="tooltip-trigger"><abbr title="Vercel">The Triangle Co</abbr></button> is probably burning quite a bit of money on builds that will fail for 5+ year old projects that I stopped working on.</p>]]></content:encoded>
+            <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
+            <enclosure url="https://matthamlin.me/og-images/dependabot-hell.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Quick Git]]></title>
             <link>https://matthamlin.me//2025/august/git-commit-push</link>
@@ -46,7 +71,7 @@
             <link>https://matthamlin.me//2025/august/link-what-the-hell-is-going-on-right-now</link>
             <guid>https://matthamlin.me//2025/august/link-what-the-hell-is-going-on-right-now</guid>
             <pubDate>Sat, 23 Aug 2025 00:58:24 GMT</pubDate>
-            <description><![CDATA[Status Update: August 22, 2025]]></description>
+            <description><![CDATA[Status Update: August 23, 2025]]></description>
             <content:encoded><![CDATA[<p>I recently (much like most folks who browse the orange site) stumbled across this excellent blog post titled <a href="https://catskull.net/what-the-hell-is-going-on-right-now.html" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">What the hell is going on right now?</a>, which I think pretty accurately summarizes how the field of software engineering is changing week-to-week and even day-to-day right now thanks to AI.</p>
 <p>I recommend giving the whole post a read - it&#x27;s not too long and reads quite easily too.</p>
 <p>Here&#x27;s some of the snippets that stood out to me:</p>
@@ -350,7 +375,7 @@
             <link>https://matthamlin.me//2025/june/adding-microposts</link>
             <guid>https://matthamlin.me//2025/june/adding-microposts</guid>
             <pubDate>Fri, 20 Jun 2025 00:35:56 GMT</pubDate>
-            <description><![CDATA[Status Update: June 19, 2025]]></description>
+            <description><![CDATA[Status Update: June 20, 2025]]></description>
             <content:encoded><![CDATA[<p>I&#x27;m working on adding short-form (microblog-like) status updates (<code>microposts</code>) to my personal website.</p>
 <p>It&#x27;s not fully flushed (or fleshed?) out yet, so this may change in the near future!</p>
 <div class="rounded-lg bg-muted px-4 py-0.5"><p>I may not use these updates as much - but it seems like a nice low-friction way to share quick thoughts.</p><p>Next step is to build a mini web app to easily post them though!</p></div>]]></content:encoded>

@@ -4,6 +4,41 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let recentMicroposts: Array<HydratedFrontmatter> = [
   {
+    "title": "Link: Next.js Is Infuriating",
+    "slug": "link-nextjs-is-infuriating",
+    "path": "/2025/september/link-nextjs-is-infuriating",
+    "date": 1756821323897,
+    "status": "public",
+    "type": "micropost",
+    "tags": [
+      "micropost",
+      "Links"
+    ],
+    "month": "september",
+    "year": 2025,
+    "ogImage": "/og-images/link-nextjs-is-infuriating.png",
+    "blueskyPostUri": "",
+    "location": "Somewhere over the Atlantic between Edinburgh Scotland and Boston MA",
+    "lastModified": null
+  },
+  {
+    "title": "Dependabot Hell",
+    "slug": "dependabot-hell",
+    "path": "/2025/august/dependabot-hell",
+    "date": 1756314642129,
+    "status": "public",
+    "type": "micropost",
+    "tags": [
+      "micropost"
+    ],
+    "month": "august",
+    "year": 2025,
+    "ogImage": "/og-images/dependabot-hell.png",
+    "blueskyPostUri": "",
+    "location": "Boston, MA",
+    "lastModified": 1756314841000
+  },
+  {
     "title": "Link: What the hell is going on right now?",
     "slug": "link-what-the-hell-is-going-on-right-now",
     "path": "/2025/august/link-what-the-hell-is-going-on-right-now",
@@ -57,41 +92,5 @@ export let recentMicroposts: Array<HydratedFrontmatter> = [
     "blueskyPostUri": "",
     "location": "Boston, MA",
     "lastModified": 1753125409000
-  },
-  {
-    "title": "Link: How I build software quickly",
-    "slug": "link-how-i-build-software-quickly",
-    "path": "/2025/july/link-how-i-build-software-quickly",
-    "date": 1752491842222,
-    "status": "public",
-    "type": "micropost",
-    "tags": [
-      "micropost",
-      "Links"
-    ],
-    "month": "july",
-    "year": 2025,
-    "ogImage": "/og-images/link-how-i-build-software-quickly.png",
-    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3ltwbyktpvk24",
-    "location": "Boston, MA",
-    "lastModified": 1752492696000
-  },
-  {
-    "title": "Vacation (and streaks)",
-    "slug": "vacation-and-streaks",
-    "path": "/2025/july/vacation-and-streaks",
-    "date": 1751898486318,
-    "status": "public",
-    "type": "micropost",
-    "tags": [
-      "micropost",
-      "Travel"
-    ],
-    "month": "july",
-    "year": 2025,
-    "ogImage": "/og-images/vacation-and-streaks.png",
-    "blueskyPostUri": "",
-    "location": "Gold Beach, Vashon, WA.",
-    "lastModified": 1751899155000
   }
 ]

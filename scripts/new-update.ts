@@ -86,7 +86,7 @@ if (/[^a-zA-Z0-9|-]/.exec(slug as string)) {
 }
 
 let mdxTemplate = `---
-title: ${title}
+title: "${title}"
 slug: ${slug}
 path: /${year}/${month.toLowerCase()}/${slug}
 date: ${now}
