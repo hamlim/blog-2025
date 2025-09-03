@@ -492,5 +492,12 @@
     "status": "read",
     "dateStarted": "August 30 2025",
     "dateFinished": "September 2 2025"
+  },
+  {
+    "title": "The Sands of Mars",
+    "author": "Arthur C. Clarke",
+    "url": "https://www.goodreads.com/book/show/149063",
+    "status": "reading",
+    "dateStarted": "September 2 2025"
   }
 ]
