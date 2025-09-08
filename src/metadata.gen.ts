@@ -20,9 +20,9 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "september",
     "year": 2025,
     "ogImage": "/og-images/build-momentum.png",
-    "blueskyPostUri": "",
+    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lye36amdb22l",
     "location": "Boston, MA",
-    "lastModified": null
+    "lastModified": 1757364148000
   },
   {
     "title": "Link: Next.js Is Infuriating",
