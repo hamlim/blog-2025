@@ -4,7 +4,7 @@
         <title>Matt Hamlin's Blog</title>
         <link>https://matthamlin.me</link>
         <description>Matt Hamlin's Blog</description>
-        <lastBuildDate>Tue, 02 Sep 2025 14:00:27 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 08 Sep 2025 20:14:49 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Matt by Hand</generator>
         <language>en</language>
@@ -15,12 +15,41 @@
         </image>
         <copyright>© 2025 Matt Hamlin</copyright>
         <item>
+            <title><![CDATA[Build Momentum]]></title>
+            <link>https://matthamlin.me//2025/september/build-momentum</link>
+            <guid>https://matthamlin.me//2025/september/build-momentum</guid>
+            <pubDate>Mon, 08 Sep 2025 20:13:54 GMT</pubDate>
+            <description><![CDATA[The trick to successful habits and getting shit done is to just get started and build momentum.]]></description>
+            <content:encoded><![CDATA[<p>This will be a quick one - I promise!</p>
+<p>The trick to successful habits and also getting shit done is two fold:</p>
+<ul>
+<li>Get started</li>
+<li>Build momentum</li>
+</ul>
+<p>The <strong>getting started</strong> part is (from my experience) often the easiest thing to do;</p>
+<p>You can easily:</p>
+<ul>
+<li>Step outside for that first step of a walk</li>
+<li>Spin up a new repo for a side project</li>
+<li>Open a new document to start writing</li>
+<li>etc</li>
+</ul>
+<p>Often the barrier to entry or to starting something is actually lower than we think it is.</p>
+<p>The trickier part here is <strong>building momentum</strong>.</p>
+<p>Building momentum means following through from that start with a second, third, fourth, etc action, e.g. taking another step after the first one, sitting back down to continue work on that side project, writing the second page in that document.</p>
+<p>The key insight here is not just that you should keep doing work - many have also noted that it&#x27;s not the joy/dopamine that should be driving you to continue working on something, but instead it&#x27;s putting in the effort even when you are tired of something.</p>
+<p>It&#x27;s far easier to take that 10,000&#x27;th step when you&#x27;ve already taken 9,999 of them.</p>
+<p>Each time you continue working on the thing (whatever that thing is), it gets easier - you&#x27;re training your mind and body that it&#x27;s a routine and you&#x27;ll start to pick it up that much easier as well.</p>]]></content:encoded>
+            <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
+            <enclosure url="https://matthamlin.me/og-images/build-momentum.png" length="0" type="image/png"/>
+        </item>
+        <item>
             <title><![CDATA[Link: Next.js Is Infuriating]]></title>
             <link>https://matthamlin.me//2025/september/link-nextjs-is-infuriating</link>
             <guid>https://matthamlin.me//2025/september/link-nextjs-is-infuriating</guid>
             <pubDate>Tue, 02 Sep 2025 13:55:23 GMT</pubDate>
             <description><![CDATA[Status Update: September 2, 2025]]></description>
-            <content:encoded><![CDATA[<p><a href="https://blog.meca.sh/3lxoty3shjc2z" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">Next.js Is Infuriating</a></p>
+            <content:encoded><![CDATA[<p>👉 <a href="https://blog.meca.sh/3lxoty3shjc2z" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">Next.js Is Infuriating</a> 👈</p>
 <p>I feel like I don&#x27;t need to add much else to this topic - I used to enjoy using Next.js for a lot of things but have since pulled back and have been really enjoying <a href="https://waku.gg" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">Waku</a>.</p>
 <div class="rounded-lg bg-muted px-4 py-0.5"><p>We (ab)used the same <code>headers</code> trick that the author shares in the above post while at Wayfair to share request context between our custom server and our RSC entrypoints, see also <a href="https://github.com/hamlim/cursed-next-middleware" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">this repo</a> demonstrating it!</p></div>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
@@ -71,7 +100,7 @@
             <link>https://matthamlin.me//2025/august/link-what-the-hell-is-going-on-right-now</link>
             <guid>https://matthamlin.me//2025/august/link-what-the-hell-is-going-on-right-now</guid>
             <pubDate>Sat, 23 Aug 2025 00:58:24 GMT</pubDate>
-            <description><![CDATA[Status Update: August 23, 2025]]></description>
+            <description><![CDATA[Status Update: August 22, 2025]]></description>
             <content:encoded><![CDATA[<p>I recently (much like most folks who browse the orange site) stumbled across this excellent blog post titled <a href="https://catskull.net/what-the-hell-is-going-on-right-now.html" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">What the hell is going on right now?</a>, which I think pretty accurately summarizes how the field of software engineering is changing week-to-week and even day-to-day right now thanks to AI.</p>
 <p>I recommend giving the whole post a read - it&#x27;s not too long and reads quite easily too.</p>
 <p>Here&#x27;s some of the snippets that stood out to me:</p>
@@ -375,7 +404,7 @@
             <link>https://matthamlin.me//2025/june/adding-microposts</link>
             <guid>https://matthamlin.me//2025/june/adding-microposts</guid>
             <pubDate>Fri, 20 Jun 2025 00:35:56 GMT</pubDate>
-            <description><![CDATA[Status Update: June 20, 2025]]></description>
+            <description><![CDATA[Status Update: June 19, 2025]]></description>
             <content:encoded><![CDATA[<p>I&#x27;m working on adding short-form (microblog-like) status updates (<code>microposts</code>) to my personal website.</p>
 <p>It&#x27;s not fully flushed (or fleshed?) out yet, so this may change in the near future!</p>
 <div class="rounded-lg bg-muted px-4 py-0.5"><p>I may not use these updates as much - but it seems like a nice low-friction way to share quick thoughts.</p><p>Next step is to build a mini web app to easily post them though!</p></div>]]></content:encoded>

@@ -19,7 +19,7 @@ export let recentMicroposts: Array<HydratedFrontmatter> = [
     "ogImage": "/og-images/link-nextjs-is-infuriating.png",
     "blueskyPostUri": "",
     "location": "Somewhere over the Atlantic between Edinburgh Scotland and Boston MA",
-    "lastModified": 1756821702000
+    "lastModified": 1756821742000
   },
   {
     "title": "Dependabot Hell",

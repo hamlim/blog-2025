@@ -5,6 +5,26 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let metadata: Array<HydratedFrontmatter> = [
   {
+    "title": "Build Momentum",
+    "slug": "build-momentum",
+    "path": "/2025/september/build-momentum",
+    "date": 1757362434666,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Random",
+      "Opinion",
+      "Thoughts"
+    ],
+    "description": "The trick to successful habits and getting shit done is to just get started and build momentum.",
+    "month": "september",
+    "year": 2025,
+    "ogImage": "/og-images/build-momentum.png",
+    "blueskyPostUri": "",
+    "location": "Boston, MA",
+    "lastModified": null
+  },
+  {
     "title": "Link: Next.js Is Infuriating",
     "slug": "link-nextjs-is-infuriating",
     "path": "/2025/september/link-nextjs-is-infuriating",
@@ -20,7 +40,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "ogImage": "/og-images/link-nextjs-is-infuriating.png",
     "blueskyPostUri": "",
     "location": "Somewhere over the Atlantic between Edinburgh Scotland and Boston MA",
-    "lastModified": 1756821702000
+    "lastModified": 1756821742000
   },
   {
     "title": "Dependabot Hell",

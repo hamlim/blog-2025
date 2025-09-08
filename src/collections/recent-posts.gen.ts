@@ -4,6 +4,26 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let recentPosts: Array<HydratedFrontmatter> = [
   {
+    "title": "Build Momentum",
+    "slug": "build-momentum",
+    "path": "/2025/september/build-momentum",
+    "date": 1757362434666,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Random",
+      "Opinion",
+      "Thoughts"
+    ],
+    "description": "The trick to successful habits and getting shit done is to just get started and build momentum.",
+    "month": "september",
+    "year": 2025,
+    "ogImage": "/og-images/build-momentum.png",
+    "blueskyPostUri": "",
+    "location": "Boston, MA",
+    "lastModified": null
+  },
+  {
     "title": "On Taste",
     "slug": "on-taste",
     "path": "/2025/august/on-taste",
@@ -81,26 +101,6 @@ export let recentPosts: Array<HydratedFrontmatter> = [
     "year": 2025,
     "ogImage": "/og-images/quick-tip-theme-aware-images.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lrr37qbdp22d",
-    "location": "",
-    "lastModified": 1750380818000
-  },
-  {
-    "title": "Async Class Creation In JavaScript",
-    "slug": "async-class-creation-in-javascript",
-    "path": "/2025/june/async-class-creation-in-javascript",
-    "date": 1748981098396,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Web Development",
-      "JavaScript",
-      "TypeScript",
-      "Tip"
-    ],
-    "description": "Have you ever wanted to create a class in JavaScript or TypeScript but also have the initialization be async? Here's a quick tip on a pattern that I've used in the past!",
-    "month": "june",
-    "year": 2025,
-    "ogImage": "/og-images/async-class-creation-in-javascript.png",
     "location": "",
     "lastModified": 1750380818000
   }
