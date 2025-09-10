@@ -5,6 +5,26 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let metadata: Array<HydratedFrontmatter> = [
   {
+    "title": "In Review - The Nuphy Air75 V3",
+    "slug": "in-review-the-nuphy-air75-v3",
+    "path": "/2025/september/in-review-the-nuphy-air75-v3",
+    "date": 1757519010725,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Product Review",
+      "Gear",
+      "Keyboard"
+    ],
+    "description": "I recently changed out my keyboard for daily use from the Nuphy Air75 V2 to the V3 model - and i've had a mixed experience in that change that I figured I should share more broadly.",
+    "month": "september",
+    "year": 2025,
+    "ogImage": "/og-images/in-review-the-nuphy-air75-v3.png",
+    "blueskyPostUri": "",
+    "location": "Boston, MA",
+    "lastModified": null
+  },
+  {
     "title": "Build Momentum",
     "slug": "build-momentum",
     "path": "/2025/september/build-momentum",
@@ -22,7 +42,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "ogImage": "/og-images/build-momentum.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lye36amdb22l",
     "location": "Boston, MA",
-    "lastModified": 1757364148000
+    "lastModified": 1757364427000
   },
   {
     "title": "Link: Next.js Is Infuriating",

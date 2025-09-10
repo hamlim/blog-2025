@@ -4,7 +4,7 @@
         <title>Matt Hamlin's Blog</title>
         <link>https://matthamlin.me</link>
         <description>Matt Hamlin's Blog</description>
-        <lastBuildDate>Mon, 08 Sep 2025 20:46:57 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 10 Sep 2025 15:51:12 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Matt by Hand</generator>
         <language>en</language>
@@ -14,6 +14,55 @@
             <link>https://matthamlin.me</link>
         </image>
         <copyright>© 2025 Matt Hamlin</copyright>
+        <item>
+            <title><![CDATA[In Review - The Nuphy Air75 V3]]></title>
+            <link>https://matthamlin.me//2025/september/in-review-the-nuphy-air75-v3</link>
+            <guid>https://matthamlin.me//2025/september/in-review-the-nuphy-air75-v3</guid>
+            <pubDate>Wed, 10 Sep 2025 15:43:30 GMT</pubDate>
+            <description><![CDATA[I recently changed out my keyboard for daily use from the Nuphy Air75 V2 to the V3 model - and i've had a mixed experience in that change that I figured I should share more broadly.]]></description>
+            <content:encoded><![CDATA[<p>In April of this year I finally opted to move away from my Apple magic keyboard to a proper mechanical keyboard and opted to jump to the Nuphy Air75 V2. That upgrade was pretty decent - I had tried mechanical keyboards before (mainly with the logitech mx keyboard) and they didn&#x27;t really stick for long because the keyboard was quite loud and also I found it a bit difficult for my wrists to adjust to the increased keyboard height compared to the magic keyboard.</p>
+<p>However the Nuphy for some reason stuck around for a bit and felt pretty good to use daily as my go-to keyboard when at my desk.</p>
+<p>So when the V3 of the same keyboard was announced, I was slightly intrigued. One could argue that I probably bought the V2 at the wrong time because the V3 came out only a couple of months after I got the original one.</p>
+<p>One of the key aspects that had convinced me to upgrade to the V3 version was that it had seemed that the new model was going to be quite a bit slimmer than the V2 version - while I don&#x27;t really care much about the size I wanted to get something that was a bit slimmer / not as tall to make it just a bit easier to type on and get closer to the nice experience that I had with my magic keyboard.</p>
+<p>However, when I actually got my V3 keyboard, I found out the hard way that it was in fact actually taller than the V2 version of the keyboard.</p>
+<div class="rounded-lg bg-muted px-4 py-0.5"><p>Note: I primarily use the keyboards without extending the back &quot;feet&quot; on the keyboards - as I find that the angle from where I rest my wrists - yes I know I shouldn&#x27;t be resting them in the first place - the non-extended version is already almost at an angle that is not too easy to use.</p></div>
+<p>The height of the keyboard unfortunately isn&#x27;t one of the only issues that I&#x27;ve had with the new version since using it for a few months now, the other issues have been:</p>
+<blockquote>
+<p>Extremely slow re-connection times</p>
+</blockquote>
+<p>I&#x27;ll often step away from my computer for a minute or two - and I keep the keyboard on for that time, however even after disabling the auto-sleep functionality (I think?!), when I come back to my computer it takes a solid 2 or 3 minutes before the keyboard is on, re-connected to my computer, and usable!</p>
+<p>I never had this issue with the V2 version of the keyboard oddly...</p>
+<blockquote>
+<p>Flaky connections / disconnections</p>
+</blockquote>
+<p>Similar to the slow re-connection times, the new version of the keyboard somehow disconnects every once in a while and I need to end up re-pairing it with my computer - I now have like 6 different recognized keyboard devices in my bluetooth settings because of this random disconnect issue.</p>
+<p>Again, I never had this issue with the V2 version of the keyboard either</p>
+<blockquote>
+<p>macOS Continuity Disconnects</p>
+</blockquote>
+<p>I often use both my work laptop and my personal laptop next to one another and I enjoy being able to use my trackpad and keyboard across both devices seamlessly!</p>
+<p>However, for some reason every so often the keyboard randomly disconnects and not only does it randomly disconnect but it also seems to disconnect my trackpad as well!</p>
+<p>The only fix I&#x27;ve found for this is turning off both the keyboard and the trackpad, and then turning them back on and re-connecting them to the primary computer.</p>
+<p>Again, I never had this issue with the V2 version of the keyboard either...</p>
+<hr/>
+<p>Overall, this new version of the keyboard has been an entire downgrade for me personally. I&#x27;ve moved back over to the V2 of the keyboard and have nicely avoided a lot of the above pain points!</p>
+<p>I do miss a few things since moving back to the v2 of the keyboard:</p>
+<ul>
+<li>I chose slightly better (mainly in the sound) switches when I ordered the v3 version<!-- -->
+<ul>
+<li>Maybe I can swap the switches over to my v2 keyboard? Something to investigate soon!</li>
+</ul>
+</li>
+<li>The dial replacement for the delete key<!-- -->
+<ul>
+<li>I found this so nice to use for volume adjustment, but I honestly still didn&#x27;t really use it that much anyway</li>
+</ul>
+</li>
+</ul>
+<p>Anyway - I think thats enough of me ranting about my keyboards, I&#x27;m curious to hear from others that may have also bought the air V3 and if so what their experience has been! Do I just have a bad instance of the keyboard and I should get a replacement?</p>]]></content:encoded>
+            <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
+            <enclosure url="https://matthamlin.me/og-images/in-review-the-nuphy-air75-v3.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Build Momentum]]></title>
             <link>https://matthamlin.me//2025/september/build-momentum</link>

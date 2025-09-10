@@ -416,6 +416,8 @@ import type { getConfig as File_2025MayWebsiteRedesignV10_getConfig } from './pa
 // prettier-ignore
 import type { getConfig as File_2025SeptemberBuildMomentum_getConfig } from './pages/2025/september/build-momentum';
 // prettier-ignore
+import type { getConfig as File_2025SeptemberInReviewTheNuphyAir75V3_getConfig } from './pages/2025/september/in-review-the-nuphy-air75-v3';
+// prettier-ignore
 import type { getConfig as File_2025SeptemberLinkNextjsIsInfuriating_getConfig } from './pages/2025/september/link-nextjs-is-infuriating';
 // prettier-ignore
 import type { getConfig as File_NotFound_getConfig } from './pages/[...notFound]';
@@ -652,6 +654,7 @@ type Page =
 | ({ path: '/2025/may/belroy-transit-workpack-pro-v2' } & GetConfigResponse<typeof File_2025MayBelroyTransitWorkpackProV2_getConfig>)
 | ({ path: '/2025/may/website-redesign-v10' } & GetConfigResponse<typeof File_2025MayWebsiteRedesignV10_getConfig>)
 | ({ path: '/2025/september/build-momentum' } & GetConfigResponse<typeof File_2025SeptemberBuildMomentum_getConfig>)
+| ({ path: '/2025/september/in-review-the-nuphy-air75-v3' } & GetConfigResponse<typeof File_2025SeptemberInReviewTheNuphyAir75V3_getConfig>)
 | ({ path: '/2025/september/link-nextjs-is-infuriating' } & GetConfigResponse<typeof File_2025SeptemberLinkNextjsIsInfuriating_getConfig>)
 | ({ path: '/[...notFound]' } & GetConfigResponse<typeof File_NotFound_getConfig>)
 | ({ path: '/__sandbox' } & GetConfigResponse<typeof File_Sandbox_getConfig>)
