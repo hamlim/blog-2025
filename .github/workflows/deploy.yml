@@ -14,6 +14,9 @@ jobs:
         with:
           fetch-depth: 0
       - uses: oven-sh/setup-bun@v2
+        with:
+          # @TODO remove when 1.2.21 bug is fixed
+          bun-version: 1.2.20
 
       - name: Deploy to Cloudflare Workers
         uses: cloudflare/wrangler-action@v3
