@@ -19,9 +19,9 @@ export let recentPosts: Array<HydratedFrontmatter> = [
     "month": "september",
     "year": 2025,
     "ogImage": "/og-images/in-review-the-nuphy-air75-v3.png",
-    "blueskyPostUri": "",
+    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lyimhbhi222s",
     "location": "Boston, MA",
-    "lastModified": null
+    "lastModified": 1757520414000
   },
   {
     "title": "Build Momentum",
