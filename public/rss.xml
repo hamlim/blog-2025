@@ -4,7 +4,7 @@
         <title>Matt Hamlin's Blog</title>
         <link>https://matthamlin.me</link>
         <description>Matt Hamlin's Blog</description>
-        <lastBuildDate>Sun, 14 Sep 2025 10:52:23 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 15 Sep 2025 01:00:59 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Matt by Hand</generator>
         <language>en</language>
@@ -430,6 +430,12 @@
 <ul>
 <li>Slinging code changes to remote to see if the CI passes or fails</li>
 <li>It usually fails at least couple of times, don&#x27;t worry about trying to find the root issue locally, just keep pushing changes!</li>
+</ul>
+</li>
+<li>Burnout Driven Development<!-- -->
+<ul>
+<li>When you&#x27;re so burntout that you just do what everyone tells you to do during code review</li>
+<li>&quot;Nitpicky suggestion change to the code - sure no problem I&#x27;ll apply that change&quot; - Me</li>
 </ul>
 </li>
 </ul>]]></content:encoded>
