@@ -1,0 +1,61 @@
+---
+title: Progressive Identifiers
+slug: progressive-identifiers
+path: /2025/september/progressive-identifiers
+date: 1758045827940
+status: public
+type: snippet
+tags:
+  - snippet
+  - JavaScript
+  - Development
+month: september
+year: 2025
+ogImage: /og-images/progressive-identifiers.png
+blueskyPostUri: ""
+location: "Boston, MA"
+---
+
+This is a quick and small snippet to generate IDs within JavaScript, and then show a user friendly variant of the ID - similar to [change ids](https://jj-vcs.github.io/jj/latest/glossary/#change-id) within [Jujutsu](https://jj-vcs.github.io/jj/latest/)!
+
+```ts
+class ProgressiveIdManager {
+  rawIds = new Set();
+  betterIds = new Map();
+  
+  constructor(generateId = crypto.randomUUID.bind(crypto)) {
+    this._generateId = generateId;
+  }
+  
+  getProgressiveId(rawId) {
+    let index = 1;
+    do {
+	  let betterId = id.slice(0, index);
+	  if (!this.betterIds.has(betterId)) {
+	    betterIds.set(betterId, rawId);
+	    return betterId;
+	  }
+	  index++;
+    } while (index < id.length)
+    
+    // fallback to the original id
+    return rawId;
+  }
+  
+  generate() {
+    let rawId = this._generateId();
+    if (rawIds.has(rawId)) {
+      throw new Error(`Generated duplicate id: ${rawId} - this should never happen!`);
+    }
+    rawIds.add(rawId);
+    let progressiveId = this.getProgressiveId(rawId);
+    
+    return [progressiveId, rawId];
+  }
+}
+
+let manager = new ProgressiveIdManager();
+
+let [id] = manager.generate();
+let [anotherId] = manager.generate();
+```

@@ -4,6 +4,25 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let recentSnippets: Array<HydratedFrontmatter> = [
   {
+    "title": "Progressive Identifiers",
+    "slug": "progressive-identifiers",
+    "path": "/2025/september/progressive-identifiers",
+    "date": 1758045827940,
+    "status": "public",
+    "type": "snippet",
+    "tags": [
+      "snippet",
+      "JavaScript",
+      "Development"
+    ],
+    "month": "september",
+    "year": 2025,
+    "ogImage": "/og-images/progressive-identifiers.png",
+    "blueskyPostUri": "",
+    "location": "Boston, MA",
+    "lastModified": null
+  },
+  {
     "title": "Quick Git",
     "slug": "git-commit-push",
     "path": "/2025/august/git-commit-push",

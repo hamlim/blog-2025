@@ -5,6 +5,25 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let metadata: Array<HydratedFrontmatter> = [
   {
+    "title": "Progressive Identifiers",
+    "slug": "progressive-identifiers",
+    "path": "/2025/september/progressive-identifiers",
+    "date": 1758045827940,
+    "status": "public",
+    "type": "snippet",
+    "tags": [
+      "snippet",
+      "JavaScript",
+      "Development"
+    ],
+    "month": "september",
+    "year": 2025,
+    "ogImage": "/og-images/progressive-identifiers.png",
+    "blueskyPostUri": "",
+    "location": "Boston, MA",
+    "lastModified": null
+  },
+  {
     "title": "In Review - The Nuphy Air75 V3",
     "slug": "in-review-the-nuphy-air75-v3",
     "path": "/2025/september/in-review-the-nuphy-air75-v3",
@@ -317,7 +336,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "ogImage": "/og-images/blank-driven-development.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lsbunpzuvc2a",
     "location": "Boston, MA",
-    "lastModified": 1750691628000
+    "lastModified": 1757898078000
   },
   {
     "title": "All Documentation Should Be Dated",
