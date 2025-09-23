@@ -1,0 +1,53 @@
+---
+title: "New GitHub Scams"
+slug: new-github-scams
+path: /2025/september/new-github-scams
+date: 1758668706993
+status: public
+type: blog-post
+tags:
+  - GitHub
+description: 'The scammers/spammers on GitHub are getting a bit more creative!'
+month: september
+year: 2025
+ogImage: /og-images/new-github-scams.png
+blueskyPostUri: ""
+location: "Boston, MA"
+---
+
+<Callout>
+
+This will be a bit less refined of a blog post since I wanted to rush to get it out - primarily because it's pretty annoying.
+
+</Callout>
+
+The GitHub scammers/spammers are coming up with some pretty wild techniques to make it incredibly difficult for them to be reported and dealt with.
+
+If you haven't seen (or been on the receiving end of) some of these new spam posts, here's an example of one that popped up in my email inbox the other day:
+
+![An email from GitHub (supposedly) announcing a partnership between ycombinator and GitHub - except its not actually a real announcement](/images/new-github-scams/yc-offer.png)
+
+On first glance - this looks like it could be real! However there's a few things that seem pretty suspicious:
+
+- Email subject includes the usual `[owner/repo]` prefix
+- Beginning of the email says: "...[bot] created an issue..."
+- The actual link within the body of the email has a different source than the text of the link (`y-combinator.com` vs shown `ycombinator.com`)
+  - I didn't actually click through to the link itself to see if it looks close enough to the actual ycombinator website
+
+the best part is that there's an odd amount of whitespace at the bottom of the email body, and if you keep scrolling down you'll see your GitHub username (and several others) all tagged in the created issue!
+
+---
+
+All of that isn't really that bad - sure it can be fairly convincing and maybe it caught a few folks too, however the real tricks here are the following:
+
+- The issue that was opened (and that is the content from the email) was created in an empty repo
+  - Thankfully the repos have been deleted by now, so you'll have to take my word on this
+  - The unfortunate aspect is that you can't report a repo if there's no content in it for some reason 😡
+- The issue is created by a bot
+  - For some reason - this means that you can't report the created issue in the same way that if it were created by a real user
+
+The only way to report this as spam is to report the bot account, which has it's own flow and is a bit more esoteric.
+
+---
+
+I hope GitHub does something to prevent this soon - I've received 12 of these spam issue emails already now!

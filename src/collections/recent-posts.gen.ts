@@ -4,6 +4,24 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let recentPosts: Array<HydratedFrontmatter> = [
   {
+    "title": "New GitHub Scams",
+    "slug": "new-github-scams",
+    "path": "/2025/september/new-github-scams",
+    "date": 1758668706993,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "GitHub"
+    ],
+    "description": "The scammers/spammers on GitHub are getting a bit more creative!",
+    "month": "september",
+    "year": 2025,
+    "ogImage": "/og-images/new-github-scams.png",
+    "blueskyPostUri": "",
+    "location": "Boston, MA",
+    "lastModified": null
+  },
+  {
     "title": "In Review - The Nuphy Air75 V3",
     "slug": "in-review-the-nuphy-air75-v3",
     "path": "/2025/september/in-review-the-nuphy-air75-v3",
@@ -82,26 +100,5 @@ export let recentPosts: Array<HydratedFrontmatter> = [
     "blueskyPostUri": "",
     "location": "Boston, MA",
     "lastModified": 1752869812000
-  },
-  {
-    "title": "Roundup Notes in Obsidian with Dataview",
-    "slug": "roundup-notes-in-obsidian-with-dataview",
-    "path": "/2025/june/roundup-notes-in-obsidian-with-dataview",
-    "date": 1750115552955,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Obsidian",
-      "Tip",
-      "Note Taking",
-      "Development"
-    ],
-    "description": "A quick tip for creating roundup or summary notes based on other notes in Obsidian using the Dataview plugin!",
-    "month": "june",
-    "year": 2025,
-    "ogImage": "/og-images/roundup-notes-in-obsidian-with-dataview.png",
-    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lrr4ixwydc2d",
-    "location": "",
-    "lastModified": 1750380818000
   }
 ]

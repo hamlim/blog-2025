@@ -5,6 +5,24 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let metadata: Array<HydratedFrontmatter> = [
   {
+    "title": "New GitHub Scams",
+    "slug": "new-github-scams",
+    "path": "/2025/september/new-github-scams",
+    "date": 1758668706993,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "GitHub"
+    ],
+    "description": "The scammers/spammers on GitHub are getting a bit more creative!",
+    "month": "september",
+    "year": 2025,
+    "ogImage": "/og-images/new-github-scams.png",
+    "blueskyPostUri": "",
+    "location": "Boston, MA",
+    "lastModified": null
+  },
+  {
     "title": "Progressive Identifiers",
     "slug": "progressive-identifiers",
     "path": "/2025/september/progressive-identifiers",
@@ -21,7 +39,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "ogImage": "/og-images/progressive-identifiers.png",
     "blueskyPostUri": "",
     "location": "Boston, MA",
-    "lastModified": null
+    "lastModified": 1758046575000
   },
   {
     "title": "In Review - The Nuphy Air75 V3",

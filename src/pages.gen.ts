@@ -420,6 +420,8 @@ import type { getConfig as File_2025SeptemberInReviewTheNuphyAir75V3_getConfig }
 // prettier-ignore
 import type { getConfig as File_2025SeptemberLinkNextjsIsInfuriating_getConfig } from './pages/2025/september/link-nextjs-is-infuriating';
 // prettier-ignore
+import type { getConfig as File_2025SeptemberNewGithubScams_getConfig } from './pages/2025/september/new-github-scams';
+// prettier-ignore
 import type { getConfig as File_2025SeptemberProgressiveIdentifiers_getConfig } from './pages/2025/september/progressive-identifiers';
 // prettier-ignore
 import type { getConfig as File_NotFound_getConfig } from './pages/[...notFound]';
@@ -658,6 +660,7 @@ type Page =
 | ({ path: '/2025/september/build-momentum' } & GetConfigResponse<typeof File_2025SeptemberBuildMomentum_getConfig>)
 | ({ path: '/2025/september/in-review-the-nuphy-air75-v3' } & GetConfigResponse<typeof File_2025SeptemberInReviewTheNuphyAir75V3_getConfig>)
 | ({ path: '/2025/september/link-nextjs-is-infuriating' } & GetConfigResponse<typeof File_2025SeptemberLinkNextjsIsInfuriating_getConfig>)
+| ({ path: '/2025/september/new-github-scams' } & GetConfigResponse<typeof File_2025SeptemberNewGithubScams_getConfig>)
 | ({ path: '/2025/september/progressive-identifiers' } & GetConfigResponse<typeof File_2025SeptemberProgressiveIdentifiers_getConfig>)
 | ({ path: '/[...notFound]' } & GetConfigResponse<typeof File_NotFound_getConfig>)
 | ({ path: '/__sandbox' } & GetConfigResponse<typeof File_Sandbox_getConfig>)
