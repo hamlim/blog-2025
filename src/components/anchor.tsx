@@ -30,6 +30,16 @@ export function LinkAnchor({ href, ...props }: AnchorProps): ReactNode {
     defaultMatches: true,
   });
 
+  if (href?.startsWith("#")) {
+    return (
+      <a
+        href={href}
+        {...props}
+        className={cn(anchorClassName, props.className)}
+      />
+    );
+  }
+
   let parts = href?.split("/") ?? [];
   if (parts.length >= 2 && Number.isInteger(Number(parts[1]))) {
     isPostLink = true;

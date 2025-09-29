@@ -5,6 +5,26 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let metadata: Array<HydratedFrontmatter> = [
   {
+    "title": "In Review - I, Robot",
+    "slug": "in-review-i-robot",
+    "path": "/2025/september/in-review-i-robot",
+    "date": 1759181168550,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Book Review",
+      "Books",
+      "Thoughts"
+    ],
+    "description": "I've never read a book that has given me such a visceral reaction as 'I, Robot' has by Isaac Asimov",
+    "month": "september",
+    "year": 2025,
+    "ogImage": "/og-images/in-review-i-robot.png",
+    "blueskyPostUri": "",
+    "location": "Boston, MA",
+    "lastModified": null
+  },
+  {
     "title": "New GitHub Scams",
     "slug": "new-github-scams",
     "path": "/2025/september/new-github-scams",
@@ -18,9 +38,9 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "september",
     "year": 2025,
     "ogImage": "/og-images/new-github-scams.png",
-    "blueskyPostUri": "",
+    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lzk4qlbqhs2v",
     "location": "Boston, MA",
-    "lastModified": null
+    "lastModified": 1758673985000
   },
   {
     "title": "Progressive Identifiers",

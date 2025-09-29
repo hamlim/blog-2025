@@ -4,7 +4,7 @@
         <title>Matt Hamlin's Blog</title>
         <link>https://matthamlin.me</link>
         <description>Matt Hamlin's Blog</description>
-        <lastBuildDate>Tue, 23 Sep 2025 23:50:01 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 29 Sep 2025 21:32:14 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Matt by Hand</generator>
         <language>en</language>
@@ -14,6 +14,38 @@
             <link>https://matthamlin.me</link>
         </image>
         <copyright>© 2025 Matt Hamlin</copyright>
+        <item>
+            <title><![CDATA[In Review - I, Robot]]></title>
+            <link>https://matthamlin.me//2025/september/in-review-i-robot</link>
+            <guid>https://matthamlin.me//2025/september/in-review-i-robot</guid>
+            <pubDate>Mon, 29 Sep 2025 21:26:08 GMT</pubDate>
+            <description><![CDATA[I've never read a book that has given me such a visceral reaction as 'I, Robot' has by Isaac Asimov]]></description>
+            <content:encoded><![CDATA[<p>I recently finished reading <a href="https://www.goodreads.com/book/show/41804.I_Robot" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">I, Robot</a>, I think I had read small excerpts from it in some english literature class in high school at some point, or maybe I&#x27;ve read the book before and just didn&#x27;t remember it. <strong>I don&#x27;t think any other book that I&#x27;ve read comes even close to how this book resonates for me</strong> - and yet I don&#x27;t think it&#x27;s my all time favorite book, nor would it end up in my top 10, -20, or even -100 books that I&#x27;ve read.</p>
+<p>With that being said though, I do think that everyone should give this book a read, not just because it&#x27;s pretty short (right around 200 pages) and a really light read, but also because its almost prescient in how it talks about robots like they are the current <button data-state="closed" data-slot="tooltip-trigger"><abbr title="Large Language Models">LLMs</abbr></button> and current day AI.</p>
+<p>Three small anecdotes that stand out to me;</p>
+<ol>
+<li><a class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline" href="#my-reaction">My reaction while reading this book</a></li>
+<li><a class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline" href="#liar">The &quot;Liar!&quot; chapter/short story</a></li>
+<li><a class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline" href="#the-evitable-conflict">&quot;The Evitable Conflict&quot; chapter/short story</a></li>
+</ol>
+<h3 id="my-reaction">My Reaction</h3>
+<p>First up, my reaction to reading this book. I&#x27;ll be brutally honest - I picked this book up hoping that it&#x27;d be effectively the same storyline as the <a href="https://www.imdb.com/title/tt0343818/" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">2004 summer block-buster I, Robot movie with Will Smith</a>. Sorry to burst the bubble for folks that maybe started reading this blog post thinking it&#x27;d be the same and then went out and impulse purchased it from <del>Amazon</del> <em>your local bookstore</em>, but this is not the same storyline as the movie.</p>
+<p>The movie definitely connects with some aspects from the book, sharing one of the main characters, and pulling from a few plot points along the way.</p>
+<p>Honestly - after about 10 pages I thought I was going to put down the book and move on to the next, and it wasn&#x27;t until the next chapter and then finally the last chapter in the book that completely reversed my perspective on this book!</p>
+<h3 id="liar">The &quot;Liar!&quot; Chapter / Short Story</h3>
+<p>This chapter immediately reminded me of the ChatGPT 4o release, wherein many folks realized that the new model release was continuously <a href="https://www.urbandictionary.com/define.php?term=Glazing" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">glazing (maybe a risky click for some)</a> you as you interacted with the model. That issue became so popular that OpenAI had to put out a <a href="https://openai.com/index/sycophancy-in-gpt-4o/" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">blog post</a> talking about how they were handling the issues and moving forward from there.</p>
+<p>This chapter was almost a one-for-one prediction of what happened with the 4o release, and really highlighted one of the core concerns many have raised with increased use of LLMs by so many people.</p>
+<div class="rounded-lg bg-muted px-4 py-0.5"><blockquote>
+<p>I&#x27;d recommend getting the book just to read this and the final chapter.</p>
+<p>go into debt if you have to.</p>
+</blockquote></div>
+<h3 id="the-evitable-conflict">&quot;The Evitable Conflict&quot;</h3>
+<p>One of the best parts of this finale to the book - is that it really leaves it up to the reader to extrapolate with where things are heading (in the book, but now also in real life).</p>
+<p>I feel like this represents one of, if not the most central, AI Doomerism perspective, that AI / AGI will progress to the point where it is no longer being guided by humanity but instead starts to make decisions to align humanity to it&#x27;s perspective future.</p>
+<p>I really hope that AGI doesn&#x27;t pick up our line of work where we&#x27;re at now with AI alignment and continues it towards &quot;human alignment&quot; - but only time will tell.</p>]]></content:encoded>
+            <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
+            <enclosure url="https://matthamlin.me/og-images/in-review-i-robot.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[New GitHub Scams]]></title>
             <link>https://matthamlin.me//2025/september/new-github-scams</link>
