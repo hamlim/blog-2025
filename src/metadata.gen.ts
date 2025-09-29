@@ -20,9 +20,9 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "september",
     "year": 2025,
     "ogImage": "/og-images/in-review-i-robot.png",
-    "blueskyPostUri": "",
+    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lzyxwwor5c2r",
     "location": "Boston, MA",
-    "lastModified": null
+    "lastModified": 1759182020000
   },
   {
     "title": "New GitHub Scams",
