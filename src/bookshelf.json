@@ -516,5 +516,12 @@
     "status": "read",
     "dateStarted": "September 20 2025",
     "dateFinished": "September 29 2025"
+  },
+  {
+    "title": "Childhood's End",
+    "author": "Arthur C. Clarke",
+    "url": "https://www.goodreads.com/book/show/414999.Childhood_s_End",
+    "status": "reading",
+    "dateStarted": "September 29 2025"
   }
 ]
