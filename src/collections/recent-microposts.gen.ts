@@ -4,6 +4,26 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let recentMicroposts: Array<HydratedFrontmatter> = [
   {
+    "title": "Tip: GitHub Created Date Filtering",
+    "slug": "github-created-date-filtering",
+    "path": "/2025/october/github-created-date-filtering",
+    "date": 1759753742193,
+    "status": "public",
+    "type": "micropost",
+    "tags": [
+      "micropost",
+      "Tip",
+      "GitHub",
+      "Development"
+    ],
+    "month": "october",
+    "year": 2025,
+    "ogImage": "/og-images/github-created-date-filtering.png",
+    "blueskyPostUri": "",
+    "location": "Boston, MA",
+    "lastModified": null
+  },
+  {
     "title": "Link: Next.js Is Infuriating",
     "slug": "link-nextjs-is-infuriating",
     "path": "/2025/september/link-nextjs-is-infuriating",
@@ -73,24 +93,5 @@ export let recentMicroposts: Array<HydratedFrontmatter> = [
     "blueskyPostUri": "",
     "location": "Boston, MA",
     "lastModified": 1755605056000
-  },
-  {
-    "title": "Zombie Retros",
-    "slug": "zombie-retros",
-    "path": "/2025/july/zombie-retros",
-    "date": 1753124861470,
-    "status": "public",
-    "type": "micropost",
-    "tags": [
-      "micropost",
-      "Teams",
-      "Culture"
-    ],
-    "month": "july",
-    "year": 2025,
-    "ogImage": "/og-images/zombie-retros.png",
-    "blueskyPostUri": "",
-    "location": "Boston, MA",
-    "lastModified": 1753125409000
   }
 ]

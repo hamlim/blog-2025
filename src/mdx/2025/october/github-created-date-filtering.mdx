@@ -1,0 +1,37 @@
+---
+title: "Tip: GitHub Created Date Filtering"
+slug: github-created-date-filtering
+path: /2025/october/github-created-date-filtering
+date: 1759753742193
+status: public
+type: micropost
+tags:
+  - micropost
+  - Tip
+  - GitHub
+  - Development
+month: october
+year: 2025
+ogImage: /og-images/github-created-date-filtering.png
+blueskyPostUri: ""
+location: "Boston, MA"
+---
+
+If you ever find youself wondering:
+
+> What PRs did I open in the month of August this year?
+
+You can use the `created:` filter within the PR search view (note this isn't limited to only PRs, I think it should work in any filter search across GitHub!)
+
+```txt
+created:YYYY-MM-DD..YYYY-MM-DD
+```
+
+So for example:
+
+```txt
+author:hamlim created:2025-09-01..2025-09-30
+```
+
+Should show the PRs/Issues that I created in the month of September 2025!
+

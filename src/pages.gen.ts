@@ -414,6 +414,8 @@ import type { getConfig as File_2025MayBelroyTransitWorkpackProV2_getConfig } fr
 // prettier-ignore
 import type { getConfig as File_2025MayWebsiteRedesignV10_getConfig } from './pages/2025/may/website-redesign-v10';
 // prettier-ignore
+import type { getConfig as File_2025OctoberGithubCreatedDateFiltering_getConfig } from './pages/2025/october/github-created-date-filtering';
+// prettier-ignore
 import type { getConfig as File_2025SeptemberBuildMomentum_getConfig } from './pages/2025/september/build-momentum';
 // prettier-ignore
 import type { getConfig as File_2025SeptemberInReviewIRobot_getConfig } from './pages/2025/september/in-review-i-robot';
@@ -659,6 +661,7 @@ type Page =
 | ({ path: '/2025/march/replacing-dropbox-capture-with-raycast' } & GetConfigResponse<typeof File_2025MarchReplacingDropboxCaptureWithRaycast_getConfig>)
 | ({ path: '/2025/may/belroy-transit-workpack-pro-v2' } & GetConfigResponse<typeof File_2025MayBelroyTransitWorkpackProV2_getConfig>)
 | ({ path: '/2025/may/website-redesign-v10' } & GetConfigResponse<typeof File_2025MayWebsiteRedesignV10_getConfig>)
+| ({ path: '/2025/october/github-created-date-filtering' } & GetConfigResponse<typeof File_2025OctoberGithubCreatedDateFiltering_getConfig>)
 | ({ path: '/2025/september/build-momentum' } & GetConfigResponse<typeof File_2025SeptemberBuildMomentum_getConfig>)
 | ({ path: '/2025/september/in-review-i-robot' } & GetConfigResponse<typeof File_2025SeptemberInReviewIRobot_getConfig>)
 | ({ path: '/2025/september/in-review-the-nuphy-air75-v3' } & GetConfigResponse<typeof File_2025SeptemberInReviewTheNuphyAir75V3_getConfig>)

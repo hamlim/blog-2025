@@ -5,6 +5,26 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let metadata: Array<HydratedFrontmatter> = [
   {
+    "title": "Tip: GitHub Created Date Filtering",
+    "slug": "github-created-date-filtering",
+    "path": "/2025/october/github-created-date-filtering",
+    "date": 1759753742193,
+    "status": "public",
+    "type": "micropost",
+    "tags": [
+      "micropost",
+      "Tip",
+      "GitHub",
+      "Development"
+    ],
+    "month": "october",
+    "year": 2025,
+    "ogImage": "/og-images/github-created-date-filtering.png",
+    "blueskyPostUri": "",
+    "location": "Boston, MA",
+    "lastModified": null
+  },
+  {
     "title": "In Review - I, Robot",
     "slug": "in-review-i-robot",
     "path": "/2025/september/in-review-i-robot",
@@ -3780,7 +3800,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "year": 2015,
     "ogImage": "/og-images/blogging-vs-working.png",
     "location": "Snohomish, WA",
-    "lastModified": 1750380818000
+    "lastModified": 1759751284000
   },
   {
     "title": "Powerpoint",
