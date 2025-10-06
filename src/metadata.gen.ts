@@ -3779,7 +3779,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2015,
     "ogImage": "/og-images/blogging-vs-working.png",
-    "location": "",
+    "location": "Snohomish, WA",
     "lastModified": 1750380818000
   },
   {
