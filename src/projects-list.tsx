@@ -12,7 +12,7 @@ export let projects: Array<{
     description: "A strict dependency conformance tool for monorepos!",
   },
   {
-    link: "https://hohoro.vercel.app/",
+    link: "https://hohoro-docs.mhamlin.workers.dev/",
     title: "hohoro",
     description:
       "An incremental JS/TS/TSX library build tool that helps you build your library with ease!",
