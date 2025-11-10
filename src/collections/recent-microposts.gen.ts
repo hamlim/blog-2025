@@ -22,7 +22,7 @@ export let recentMicroposts: Array<HydratedFrontmatter> = [
     "ogImage": "/og-images/secrets-for-cloudflare-workers.png",
     "blueskyPostUri": "",
     "location": "Boston, MA",
-    "lastModified": null
+    "lastModified": 1762803760000
   },
   {
     "title": "Tip: GitHub Created Date Filtering",
