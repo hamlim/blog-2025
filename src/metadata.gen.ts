@@ -5,6 +5,27 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let metadata: Array<HydratedFrontmatter> = [
   {
+    "title": "Tip: Secrets for Cloudflare Workers",
+    "slug": "secrets-for-cloudflare-workers",
+    "path": "/2025/november/secrets-for-cloudflare-workers",
+    "date": 1762803453407,
+    "status": "public",
+    "type": "micropost",
+    "tags": [
+      "micropost",
+      "Cloudflare",
+      "workers",
+      "wrangler",
+      "Tip"
+    ],
+    "month": "november",
+    "year": 2025,
+    "ogImage": "/og-images/secrets-for-cloudflare-workers.png",
+    "blueskyPostUri": "",
+    "location": "Boston, MA",
+    "lastModified": null
+  },
+  {
     "title": "Tip: GitHub Created Date Filtering",
     "slug": "github-created-date-filtering",
     "path": "/2025/october/github-created-date-filtering",
@@ -22,7 +43,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "ogImage": "/og-images/github-created-date-filtering.png",
     "blueskyPostUri": "",
     "location": "Boston, MA",
-    "lastModified": null
+    "lastModified": 1759753991000
   },
   {
     "title": "In Review - I, Robot",

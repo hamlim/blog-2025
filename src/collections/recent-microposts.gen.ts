@@ -4,6 +4,27 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let recentMicroposts: Array<HydratedFrontmatter> = [
   {
+    "title": "Tip: Secrets for Cloudflare Workers",
+    "slug": "secrets-for-cloudflare-workers",
+    "path": "/2025/november/secrets-for-cloudflare-workers",
+    "date": 1762803453407,
+    "status": "public",
+    "type": "micropost",
+    "tags": [
+      "micropost",
+      "Cloudflare",
+      "workers",
+      "wrangler",
+      "Tip"
+    ],
+    "month": "november",
+    "year": 2025,
+    "ogImage": "/og-images/secrets-for-cloudflare-workers.png",
+    "blueskyPostUri": "",
+    "location": "Boston, MA",
+    "lastModified": null
+  },
+  {
     "title": "Tip: GitHub Created Date Filtering",
     "slug": "github-created-date-filtering",
     "path": "/2025/october/github-created-date-filtering",
@@ -21,7 +42,7 @@ export let recentMicroposts: Array<HydratedFrontmatter> = [
     "ogImage": "/og-images/github-created-date-filtering.png",
     "blueskyPostUri": "",
     "location": "Boston, MA",
-    "lastModified": null
+    "lastModified": 1759753991000
   },
   {
     "title": "Link: Next.js Is Infuriating",
@@ -75,23 +96,5 @@ export let recentMicroposts: Array<HydratedFrontmatter> = [
     "blueskyPostUri": "",
     "location": "Boston, MA",
     "lastModified": 1755911334000
-  },
-  {
-    "title": "Recipe: Horchata Protein Latte",
-    "slug": "recipe-horchata-protein-latte",
-    "path": "/2025/august/recipe-horchata-protein-latte",
-    "date": 1754914452114,
-    "status": "public",
-    "type": "micropost",
-    "tags": [
-      "micropost",
-      "recipe"
-    ],
-    "month": "august",
-    "year": 2025,
-    "ogImage": "/og-images/recipe-horchata-protein-latte.png",
-    "blueskyPostUri": "",
-    "location": "Boston, MA",
-    "lastModified": 1755605056000
   }
 ]

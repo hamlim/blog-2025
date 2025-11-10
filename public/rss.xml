@@ -4,7 +4,7 @@
         <title>Matt Hamlin's Blog</title>
         <link>https://matthamlin.me</link>
         <description>Matt Hamlin's Blog</description>
-        <lastBuildDate>Mon, 06 Oct 2025 12:32:56 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 10 Nov 2025 19:41:35 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Matt by Hand</generator>
         <language>en</language>
@@ -14,6 +14,28 @@
             <link>https://matthamlin.me</link>
         </image>
         <copyright>© 2025 Matt Hamlin</copyright>
+        <item>
+            <title><![CDATA[Tip: Secrets for Cloudflare Workers]]></title>
+            <link>https://matthamlin.me//2025/november/secrets-for-cloudflare-workers</link>
+            <guid>https://matthamlin.me//2025/november/secrets-for-cloudflare-workers</guid>
+            <pubDate>Mon, 10 Nov 2025 19:37:33 GMT</pubDate>
+            <description><![CDATA[Status Update: November 10, 2025]]></description>
+            <content:encoded><![CDATA[<p>To add a secret to a worker (where there&#x27;s a <code>wrangler.jsonc</code>/<code>.toml</code> file in the current directory):</p>
+<pre class="shiki shiki-themes vitesse-light vitesse-dark" style="background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee" tabindex="0"><code><span class="line"><span style="color:#59873A;--shiki-dark:#80A665">bunx</span><span style="color:#B56959;--shiki-dark:#C98A7D"> wrangler</span><span style="color:#B56959;--shiki-dark:#C98A7D"> secret</span><span style="color:#B56959;--shiki-dark:#C98A7D"> put</span><span style="color:#B56959;--shiki-dark:#C98A7D"> SECRET_NAME</span></span></code></pre>
+<p>It&#x27;ll prompt for the value of the secret, and you&#x27;ll be all set!</p>
+<h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="generated-types">Generated Types</h3>
+<p>To add that new secret to the generated types from <code>bun wrangler types</code>, you&#x27;ll need to do the following:</p>
+<ul>
+<li>create a <code>.env.local</code> file</li>
+<li>Add a stub of the secret there</li>
+<li>Run <code>bun wrangler types</code> to re-generate types</li>
+</ul>
+<p>See <a href="https://github.com/cloudflare/workers-sdk/issues/5756" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">this feature request</a> to make this workflow a bit easier!</p>
+<hr/>
+<p>Docs: <a href="https://developers.cloudflare.com/workers/configuration/secrets/" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">https://developers.cloudflare.com/workers/configuration/secrets/</a></p>]]></content:encoded>
+            <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
+            <enclosure url="https://matthamlin.me/og-images/secrets-for-cloudflare-workers.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Tip: GitHub Created Date Filtering]]></title>
             <link>https://matthamlin.me//2025/october/github-created-date-filtering</link>
