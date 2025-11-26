@@ -5,6 +5,31 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let metadata: Array<HydratedFrontmatter> = [
   {
+    "title": "Things Leaders Should Never Do",
+    "slug": "things-leaders-should-never-do",
+    "path": "/2025/november/things-leaders-should-never-do",
+    "date": 1764185538935,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Thoughts",
+      "Leaders",
+      "Teams",
+      "Culture",
+      "Organizations",
+      "Career",
+      "Work",
+      "Evergreen"
+    ],
+    "description": "If you're a leader, please never do these things!",
+    "month": "november",
+    "year": 2025,
+    "ogImage": "/og-images/things-leaders-should-never-do.png",
+    "blueskyPostUri": "",
+    "location": "Stamford, CT",
+    "lastModified": null
+  },
+  {
     "title": "Tip: Secrets for Cloudflare Workers",
     "slug": "secrets-for-cloudflare-workers",
     "path": "/2025/november/secrets-for-cloudflare-workers",

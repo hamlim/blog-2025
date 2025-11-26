@@ -4,6 +4,31 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let recentPosts: Array<HydratedFrontmatter> = [
   {
+    "title": "Things Leaders Should Never Do",
+    "slug": "things-leaders-should-never-do",
+    "path": "/2025/november/things-leaders-should-never-do",
+    "date": 1764185538935,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Thoughts",
+      "Leaders",
+      "Teams",
+      "Culture",
+      "Organizations",
+      "Career",
+      "Work",
+      "Evergreen"
+    ],
+    "description": "If you're a leader, please never do these things!",
+    "month": "november",
+    "year": 2025,
+    "ogImage": "/og-images/things-leaders-should-never-do.png",
+    "blueskyPostUri": "",
+    "location": "Stamford, CT",
+    "lastModified": null
+  },
+  {
     "title": "In Review - I, Robot",
     "slug": "in-review-i-robot",
     "path": "/2025/september/in-review-i-robot",
@@ -80,24 +105,5 @@ export let recentPosts: Array<HydratedFrontmatter> = [
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lye36amdb22l",
     "location": "Boston, MA",
     "lastModified": 1757364427000
-  },
-  {
-    "title": "On Taste",
-    "slug": "on-taste",
-    "path": "/2025/august/on-taste",
-    "date": 1754250106806,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Random",
-      "Thoughts"
-    ],
-    "description": "_Taste_ is the last key differentiator between those who win and those who lose.",
-    "month": "august",
-    "year": 2025,
-    "ogImage": "/og-images/on-taste.png",
-    "blueskyPostUri": "",
-    "location": "On a train from Portland, ME to Boston, MA",
-    "lastModified": 1754250249000
   }
 ]

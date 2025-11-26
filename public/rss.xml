@@ -4,7 +4,7 @@
         <title>Matt Hamlin's Blog</title>
         <link>https://matthamlin.me</link>
         <description>Matt Hamlin's Blog</description>
-        <lastBuildDate>Mon, 10 Nov 2025 19:44:43 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 26 Nov 2025 19:39:53 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Matt by Hand</generator>
         <language>en</language>
@@ -14,6 +14,30 @@
             <link>https://matthamlin.me</link>
         </image>
         <copyright>© 2025 Matt Hamlin</copyright>
+        <item>
+            <title><![CDATA[Things Leaders Should Never Do]]></title>
+            <link>https://matthamlin.me//2025/november/things-leaders-should-never-do</link>
+            <guid>https://matthamlin.me//2025/november/things-leaders-should-never-do</guid>
+            <pubDate>Wed, 26 Nov 2025 19:32:18 GMT</pubDate>
+            <description><![CDATA[If you're a leader, please never do these things!]]></description>
+            <content:encoded><![CDATA[<p>This is meant to be an evergreen list of things that leaders should never do, hopefully I <strong>don&#x27;t</strong> need to add many to this list!</p>
+<ul>
+<li>Schedule unprompted meetings with no context<!-- -->
+<ul>
+<li>For sensitive things related to another meeting yet to happen - just wait to schedule the meeting</li>
+<li>For all other cases, always provide context!</li>
+</ul>
+</li>
+<li>Send copy-pasted messages as a DM<!-- -->
+<ul>
+<li>I can tell when the message wasn&#x27;t written just for me</li>
+<li>If you intend to share it with all your directs, then post it in a shared channel!</li>
+</ul>
+</li>
+</ul>]]></content:encoded>
+            <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
+            <enclosure url="https://matthamlin.me/og-images/things-leaders-should-never-do.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Tip: Secrets for Cloudflare Workers]]></title>
             <link>https://matthamlin.me//2025/november/secrets-for-cloudflare-workers</link>

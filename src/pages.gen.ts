@@ -416,6 +416,8 @@ import type { getConfig as File_2025MayWebsiteRedesignV10_getConfig } from './pa
 // prettier-ignore
 import type { getConfig as File_2025NovemberSecretsForCloudflareWorkers_getConfig } from './pages/2025/november/secrets-for-cloudflare-workers';
 // prettier-ignore
+import type { getConfig as File_2025NovemberThingsLeadersShouldNeverDo_getConfig } from './pages/2025/november/things-leaders-should-never-do';
+// prettier-ignore
 import type { getConfig as File_2025OctoberGithubCreatedDateFiltering_getConfig } from './pages/2025/october/github-created-date-filtering';
 // prettier-ignore
 import type { getConfig as File_2025SeptemberBuildMomentum_getConfig } from './pages/2025/september/build-momentum';
@@ -664,6 +666,7 @@ type Page =
 | ({ path: '/2025/may/belroy-transit-workpack-pro-v2' } & GetConfigResponse<typeof File_2025MayBelroyTransitWorkpackProV2_getConfig>)
 | ({ path: '/2025/may/website-redesign-v10' } & GetConfigResponse<typeof File_2025MayWebsiteRedesignV10_getConfig>)
 | ({ path: '/2025/november/secrets-for-cloudflare-workers' } & GetConfigResponse<typeof File_2025NovemberSecretsForCloudflareWorkers_getConfig>)
+| ({ path: '/2025/november/things-leaders-should-never-do' } & GetConfigResponse<typeof File_2025NovemberThingsLeadersShouldNeverDo_getConfig>)
 | ({ path: '/2025/october/github-created-date-filtering' } & GetConfigResponse<typeof File_2025OctoberGithubCreatedDateFiltering_getConfig>)
 | ({ path: '/2025/september/build-momentum' } & GetConfigResponse<typeof File_2025SeptemberBuildMomentum_getConfig>)
 | ({ path: '/2025/september/in-review-i-robot' } & GetConfigResponse<typeof File_2025SeptemberInReviewIRobot_getConfig>)
