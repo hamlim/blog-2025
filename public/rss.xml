@@ -4,7 +4,7 @@
         <title>Matt Hamlin's Blog</title>
         <link>https://matthamlin.me</link>
         <description>Matt Hamlin's Blog</description>
-        <lastBuildDate>Wed, 26 Nov 2025 19:39:53 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 26 Nov 2025 20:24:48 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Matt by Hand</generator>
         <language>en</language>
@@ -32,6 +32,12 @@
 <ul>
 <li>I can tell when the message wasn&#x27;t written just for me</li>
 <li>If you intend to share it with all your directs, then post it in a shared channel!</li>
+</ul>
+</li>
+<li>Answer questions about the team, without talking to the team first<!-- -->
+<ul>
+<li>Don&#x27;t provide estimates for a project without talking to the team working on it directly first</li>
+<li>Don&#x27;t say the team is doing well without asking how the team is doing first</li>
 </ul>
 </li>
 </ul>]]></content:encoded>
