@@ -1,13 +1,11 @@
 import { Feed } from "feed";
 import matter from "gray-matter";
 import type { ReactNode } from "react";
+import type { HydratedFrontmatter } from "#/types";
 import { useMDXComponents as defaultUseMDXComponents } from "#/utils/mdx-components";
-import { collectMetadata, getMDXFiles } from "./collect-metadata";
 import { transformMdx } from "./transform-mdx";
 
-export async function generateRSS() {
-  let mdxFiles = await getMDXFiles();
-  let metadata = await collectMetadata(mdxFiles);
+export async function generateRSS(metadata: Array<HydratedFrontmatter>) {
 
   let feed = new Feed({
     title: "Matt Hamlin's Blog",

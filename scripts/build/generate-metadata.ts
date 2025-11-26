@@ -1,14 +1,12 @@
 /// <reference types="bun" />
 import topPostPaths from "#/top-posts.json";
 import type { HydratedFrontmatter } from "#/types";
-import { collectMetadata, getMDXFiles } from "./collect-metadata";
 
 let metadataPath = "./src/metadata.gen.ts";
 
-export async function generateMetadata() {
-  let mdxFiles = await getMDXFiles();
-
-  let metadata = await collectMetadata(mdxFiles);
+export async function generateMetadata(
+  metadata: Array<HydratedFrontmatter>,
+) {
 
   // metadata.gen.ts:
   // biome-ignore lint/correctness/noUnusedLabels: easy way to collapse related code with a label

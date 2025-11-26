@@ -1,7 +1,7 @@
 /// <reference types="bun" />
 import { generateImage as generateBaseImage } from "pikitia";
+import type { HydratedFrontmatter } from "#/types";
 import imageCacheJSON from "../../image-cache.json";
-import { collectMetadata, getMDXFiles } from "./collect-metadata";
 
 let imageCache = new Map(Object.entries(imageCacheJSON)) as Map<
   string,
@@ -54,10 +54,7 @@ export async function generateImage({
   return pngBuffer;
 }
 
-export async function generateOGImages() {
-  let files = await getMDXFiles();
-
-  let metadata = await collectMetadata(files);
+export async function generateOGImages(metadata: Array<HydratedFrontmatter>) {
 
   for (let meta of metadata) {
     let description =

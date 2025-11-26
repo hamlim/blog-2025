@@ -26,7 +26,7 @@ export let recentPosts: Array<HydratedFrontmatter> = [
     "ogImage": "/og-images/things-leaders-should-never-do.png",
     "blueskyPostUri": "",
     "location": "Stamford, CT",
-    "lastModified": 1764186098000
+    "lastModified": 1764188765000
   },
   {
     "title": "In Review - I, Robot",
