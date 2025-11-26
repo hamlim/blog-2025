@@ -27,7 +27,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "ogImage": "/og-images/things-leaders-should-never-do.png",
     "blueskyPostUri": "",
     "location": "Stamford, CT",
-    "lastModified": 1764186098000
+    "lastModified": 1764188765000
   },
   {
     "title": "Tip: Secrets for Cloudflare Workers",
