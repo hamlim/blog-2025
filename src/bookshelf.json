@@ -532,5 +532,37 @@
     "url": "https://www.goodreads.com/book/show/92147.Map_of_Bones",
     "status": "reading",
     "dateStarted": "October 9th 2025"
+  },
+  {
+    "title": "Artifact",
+    "author": "Gregory Benford",
+    "url": "https://www.goodreads.com/book/show/453963.Artifact",
+    "status": "read",
+    "dateStarted": "November 23 2025",
+    "dateFinished": "December 7 2025"
+  },
+  {
+    "title": "Moonfall",
+    "author": "Jack McDevitt",
+    "url": "https://www.goodreads.com/book/show/337134.Moonfall",
+    "status": "to-read"
+  },
+  {
+    "title": "The Engines of God",
+    "author": "Jack McDevitt",
+    "url": "https://www.goodreads.com/book/show/337048.The_Engines_of_God",
+    "status": "to-read"
+  },
+  {
+    "title": "State of Fear",
+    "author": "Michael Crichton",
+    "url": "https://www.goodreads.com/book/show/15860.State_of_Fear",
+    "status": "to-read"
+  },
+  {
+    "title": "Debt of Honor",
+    "author": "Tom Clancy",
+    "url": "https://www.goodreads.com/book/show/19670.Debt_of_Honor",
+    "status": "to-read"
   }
 ]
