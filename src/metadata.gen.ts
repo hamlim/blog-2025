@@ -5,6 +5,27 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let metadata: Array<HydratedFrontmatter> = [
   {
+    "title": "Onboarding Your New AI Teammate",
+    "slug": "onboarding-your-new-ai-teammate",
+    "path": "/2025/december/onboarding-your-new-ai-teammate",
+    "date": 1765805895455,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "AI",
+      "Web Development",
+      "Development",
+      "Software Development"
+    ],
+    "description": "Are we reinventing the wheel when it comes to onboarding new AI agents to a codebase, when we already have primitives available for onboarding humans?",
+    "month": "december",
+    "year": 2025,
+    "ogImage": "/og-images/onboarding-your-new-ai-teammate.png",
+    "blueskyPostUri": "",
+    "location": "Boston, MA",
+    "lastModified": null
+  },
+  {
     "title": "Things Leaders Should Never Do",
     "slug": "things-leaders-should-never-do",
     "path": "/2025/november/things-leaders-should-never-do",

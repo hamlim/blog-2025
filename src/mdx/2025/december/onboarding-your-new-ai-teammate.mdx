@@ -1,0 +1,42 @@
+---
+title: "Onboarding Your New AI Teammate"
+slug: onboarding-your-new-ai-teammate
+path: /2025/december/onboarding-your-new-ai-teammate
+date: 1765805895455
+status: public
+type: blog-post
+tags:
+  - AI
+  - 'Web Development'
+  - 'Development'
+  - 'Software Development'
+description: 'Are we reinventing the wheel when it comes to onboarding new AI agents to a codebase, when we already have primitives available for onboarding humans?'
+month: december
+year: 2025
+ogImage: /og-images/onboarding-your-new-ai-teammate.png
+blueskyPostUri: ""
+location: "Boston, MA"
+---
+
+I initially started the draft of this post in April, it's crazy to think about how far we've come as an industry learning about and adopting AI development tools and techniques. It wasn't so long ago that most people would be up in arms about whether to use AI or not as part of the development lifecycle, and now it seems its either taken for granted in most teams, or set as a baseline expectation across many companies.
+
+Even through all that time since I started this post, I haven't yet been able to shake the thought that we're reinventing the wheel a bit when it comes to preparing our codebases to be optimized for AI contributions.
+
+As I understand it, the current state of the art for managing coding agents understanding of your codebase is through either (or both in many cases) a `CLAUDE.md` file and a `AGENTS.md` file, those files are often joined with various other "config-like" directories or files to add in additional skills, rules, MCP servers, documentation, or even plans.
+
+In effect, what we've done is create net-new patterns to document our codebase, when we've already had the tools to do so for human contributors.
+
+In place of either `CLAUDE.md` or `AGENTS.md`, we have had both `README.md` and `CONTRIBUTING.md` documents, explaining to humans what this project is, and how can they contribute to it respectively.
+
+In place of skills or rules, we have validation usually in the form of type checking, static analysis, lint rules, etc.
+
+In place of various plan documents, we have RFCs, ADRs, or a full blown issue tracker
+
+> Caveat:
+> 
+> I do think checking in the issue tracker is a really nice side effect, tightening the iteration loop that software engineers need to follow when iterating on longer term plans.
+> Projects like [Beads](https://github.com/steveyegge/beads) are a good example of this!
+
+In many ways, AI agents are still pretty close to any other new contributor to a codebase, they need a bit of hand holding to ensure they implement their changes in the expected way, either following conventions in the codebase or implementing net-new patterns.
+
+I haven't yet found a good sweet spot here, I'd be curious to hear what others are doing to approach onboarding AI agents and human contributors.

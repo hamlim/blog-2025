@@ -1,17 +1,26 @@
 import watcher from "@parcel/watcher";
-import { mdxRootDir } from "./collect-metadata";
+import { collectMetadata, getMDXFiles, mdxRootDir } from "./collect-metadata";
 import { generateMetadata } from "./generate-metadata";
 import { generateOGImages } from "./generate-og-images";
 import { generateRSS } from "./generate-rss";
 
-await generateMetadata();
-await generateRSS();
-await generateOGImages();
+let mdxFiles = await getMDXFiles();
+let metadata = await collectMetadata(mdxFiles);
+
+await Promise.all([
+  generateMetadata(metadata),
+  generateRSS(metadata),
+  generateOGImages(metadata),
+]);
 
 let subscription = await watcher.subscribe(mdxRootDir, async () => {
-  await generateMetadata();
-  await generateRSS();
-  await generateOGImages();
+  mdxFiles = await getMDXFiles();
+  metadata = await collectMetadata(mdxFiles);
+  await Promise.all([
+    generateMetadata(metadata),
+    generateRSS(metadata),
+    generateOGImages(metadata),
+  ]);
 });
 
 process.on("SIGINT", async () => {

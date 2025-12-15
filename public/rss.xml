@@ -4,7 +4,7 @@
         <title>Matt Hamlin's Blog</title>
         <link>https://matthamlin.me</link>
         <description>Matt Hamlin's Blog</description>
-        <lastBuildDate>Wed, 26 Nov 2025 20:40:20 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 15 Dec 2025 13:41:58 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Matt by Hand</generator>
         <language>en</language>
@@ -14,6 +14,29 @@
             <link>https://matthamlin.me</link>
         </image>
         <copyright>© 2025 Matt Hamlin</copyright>
+        <item>
+            <title><![CDATA[Onboarding Your New AI Teammate]]></title>
+            <link>https://matthamlin.me//2025/december/onboarding-your-new-ai-teammate</link>
+            <guid>https://matthamlin.me//2025/december/onboarding-your-new-ai-teammate</guid>
+            <pubDate>Mon, 15 Dec 2025 13:38:15 GMT</pubDate>
+            <description><![CDATA[Are we reinventing the wheel when it comes to onboarding new AI agents to a codebase, when we already have primitives available for onboarding humans?]]></description>
+            <content:encoded><![CDATA[<p>I initially started the draft of this post in April, it&#x27;s crazy to think about how far we&#x27;ve come as an industry learning about and adopting AI development tools and techniques. It wasn&#x27;t so long ago that most people would be up in arms about whether to use AI or not as part of the development lifecycle, and now it seems its either taken for granted in most teams, or set as a baseline expectation across many companies.</p>
+<p>Even through all that time since I started this post, I haven&#x27;t yet been able to shake the thought that we&#x27;re reinventing the wheel a bit when it comes to preparing our codebases to be optimized for AI contributions.</p>
+<p>As I understand it, the current state of the art for managing coding agents understanding of your codebase is through either (or both in many cases) a <code>CLAUDE.md</code> file and a <code>AGENTS.md</code> file, those files are often joined with various other &quot;config-like&quot; directories or files to add in additional skills, rules, MCP servers, documentation, or even plans.</p>
+<p>In effect, what we&#x27;ve done is create net-new patterns to document our codebase, when we&#x27;ve already had the tools to do so for human contributors.</p>
+<p>In place of either <code>CLAUDE.md</code> or <code>AGENTS.md</code>, we have had both <code>README.md</code> and <code>CONTRIBUTING.md</code> documents, explaining to humans what this project is, and how can they contribute to it respectively.</p>
+<p>In place of skills or rules, we have validation usually in the form of type checking, static analysis, lint rules, etc.</p>
+<p>In place of various plan documents, we have RFCs, ADRs, or a full blown issue tracker</p>
+<blockquote>
+<p>Caveat:</p>
+<p>I do think checking in the issue tracker is a really nice side effect, tightening the iteration loop that software engineers need to follow when iterating on longer term plans.
+Projects like <a href="https://github.com/steveyegge/beads" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">Beads</a> are a good example of this!</p>
+</blockquote>
+<p>In many ways, AI agents are still pretty close to any other new contributor to a codebase, they need a bit of hand holding to ensure they implement their changes in the expected way, either following conventions in the codebase or implementing net-new patterns.</p>
+<p>I haven&#x27;t yet found a good sweet spot here, I&#x27;d be curious to hear what others are doing to approach onboarding AI agents and human contributors.</p>]]></content:encoded>
+            <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
+            <enclosure url="https://matthamlin.me/og-images/onboarding-your-new-ai-teammate.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Things Leaders Should Never Do]]></title>
             <link>https://matthamlin.me//2025/november/things-leaders-should-never-do</link>
