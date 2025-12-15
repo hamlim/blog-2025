@@ -22,7 +22,7 @@
         "date-fns": "4.1.0",
         "feed": "4.2.2",
         "hls.js": "1.6.10",
-        "hono": "4.9.7",
+        "hono": "4.11.1",
         "lucide-react": "0.541.0",
         "react": "0.0.0-experimental-b061b597-20251212",
         "react-dom": "0.0.0-experimental-b061b597-20251212",
@@ -903,7 +903,7 @@
 
     "hls.js": ["hls.js@1.6.10", "", {}, "sha512-16XHorwFNh+hYazYxDNXBLEm5aRoU+oxMX6qVnkbGH3hJil4xLav3/M6NH92VkD1qSOGKXeSm+5unuawPXK6OQ=="],
 
-    "hono": ["hono@4.9.7", "", {}, "sha512-t4Te6ERzIaC48W3x4hJmBwgNlLhmiEdEE5ViYb02ffw4ignHNHa5IBtPjmbKstmtKa8X6C35iWwK4HaqvrzG9w=="],
+    "hono": ["hono@4.11.1", "", {}, "sha512-KsFcH0xxHes0J4zaQgWbYwmz3UPOOskdqZmItstUG93+Wk1ePBLkLGwbP9zlmh1BFUiL8Qp+Xfu9P7feJWpGNg=="],
 
     "html-void-elements": ["html-void-elements@3.0.0", "", {}, "sha512-bEqo66MRXsUGxWHV5IP0PUiAWwoEjba4VCzg0LjFJBpchPaTfyfCKTG6bc5F8ucKec3q5y6qOdGyYTSBEvhCrg=="],
 
