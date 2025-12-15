@@ -1,7 +1,7 @@
+import type { MiddlewareHandler } from "hono";
+import { contextStorage } from "hono/context-storage";
 import { fsRouter } from "waku";
 import adapter from "waku/adapters/cloudflare";
-import { contextStorage } from "hono/context-storage";
-import type { MiddlewareHandler } from "hono";
 
 // Workaround https://github.com/cloudflare/workers-sdk/issues/6577
 function isWranglerDev(headers?: Headers): boolean {
@@ -35,13 +35,47 @@ let cloudflareMiddleware = (): MiddlewareHandler => {
   };
 };
 
+function httpsUpgradeMiddleware(): MiddlewareHandler {
+  return async (c, next) => {
+    // Redirect HTTP to HTTPS in production
+    if (import.meta.env?.PROD) {
+      // In Cloudflare Workers, check the cf-visitor header to determine the original scheme
+      let cfVisitor = c.req.header("cf-visitor");
+      let isHttp = false;
+
+      if (cfVisitor) {
+        try {
+          let visitor = JSON.parse(cfVisitor);
+          isHttp = visitor.scheme === "http";
+        } catch {
+          // Fallback to x-forwarded-proto header if cf-visitor is not valid JSON
+          let proto = c.req.header("x-forwarded-proto");
+          isHttp = proto === "http";
+        }
+      } else {
+        // Fallback to x-forwarded-proto header
+        let proto = c.req.header("x-forwarded-proto");
+        isHttp = proto === "http";
+      }
+
+      if (isHttp) {
+        let url = new URL(c.req.url);
+        url.protocol = "https:";
+        console.log("redirecting http traffic to https, url:", url.toString());
+        return c.redirect(url.toString(), 301);
+      }
+    }
+    await next();
+  };
+}
+
 export default adapter(
   fsRouter(import.meta.glob("./**/*.{tsx,ts}", { base: "./pages" })),
   {
     middlewareFns: [
       contextStorage,
       cloudflareMiddleware,
+      httpsUpgradeMiddleware,
     ],
   },
 );
-
