@@ -1,10 +1,10 @@
 import type { Context } from "hono";
-import { getHonoContext as wakuHonoCtx } from "waku/unstable_hono";
+import { getContext } from "hono/context-storage";
 
 export function getHonoContext(): null | Context<{ Bindings: Env }> {
-  const ctx = wakuHonoCtx<{ Bindings: Env }>();
-  if (!ctx) {
+  try {
+    return getContext<{ Bindings: Env }>();
+  } catch {
     return null;
   }
-  return ctx as unknown as Context<{ Bindings: Env }>;
 }

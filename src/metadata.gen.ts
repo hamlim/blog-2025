@@ -23,7 +23,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "ogImage": "/og-images/onboarding-your-new-ai-teammate.png",
     "blueskyPostUri": "",
     "location": "Boston, MA",
-    "lastModified": null
+    "lastModified": 1765806158000
   },
   {
     "title": "Things Leaders Should Never Do",

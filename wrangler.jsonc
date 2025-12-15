@@ -3,12 +3,11 @@
   "name": "blog-2025",
   "compatibility_date": "2025-04-16",
   "compatibility_flags": ["nodejs_compat"],
-  "main": "./dist/worker/serve-cloudflare.js",
+  "main": "./dist/server/serve-cloudflare.js",
   "assets": {
-    "directory": "./dist/assets",
+    "directory": "./dist/public",
     "binding": "ASSETS",
-    "html_handling": "drop-trailing-slash",
-    "not_found_handling": "404-page"
+    "html_handling": "drop-trailing-slash"
   },
   "observability": {
     "enabled": true,

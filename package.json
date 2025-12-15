@@ -10,8 +10,8 @@
     "site:dev": "waku dev",
     "dev": "concurrently \"bun run generate:dev\" \"bun run site:dev\"",
     "prebuild": "bun run scripts/build/generate.ts",
-    "build": "waku build --with-cloudflare",
-    "start": "wrangler dev ./dist/worker/serve-cloudflare.js",
+    "build": "waku build",
+    "start": "wrangler dev ./dist/server/serve-cloudflare.js",
     "predeploy": "bun run build",
     "deploy": "wrangler deploy",
     "format": "biome format --write .",
@@ -37,13 +37,12 @@
     "hls.js": "1.6.10",
     "hono": "4.9.7",
     "lucide-react": "0.541.0",
-    "react": "0.0.0-experimental-6de32a5a-20250822",
-    "react-dom": "0.0.0-experimental-6de32a5a-20250822",
-    "react-server-dom-webpack": "0.0.0-experimental-6de32a5a-20250822",
+    "react": "0.0.0-experimental-b061b597-20251212",
+    "react-dom": "0.0.0-experimental-b061b597-20251212",
     "rehype-slug": "6.0.0",
     "suspense": "0.1.0",
     "tailwind-merge": "3.3.1",
-    "waku": "0.25.0",
+    "waku": "0.27.3",
     "wrangler": "4.32.0"
   },
   "imports": {
@@ -53,6 +52,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "2.2.2",
+    "@hiogawa/node-loader-cloudflare": "0.0.2",
     "@mdx-js/mdx": "3.1.0",
     "@mdx-js/rollup": "3.1.0",
     "@parcel/watcher": "2.5.1",
@@ -80,5 +80,8 @@
     "tinyglobby": "0.2.14",
     "tw-animate-css": "1.3.7",
     "typescript": "5.9.2"
+  },
+  "resolutions": {
+    "vite": "7.3.0"
   }
 }

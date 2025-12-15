@@ -434,7 +434,7 @@ import type { getConfig as File_2025SeptemberNewGithubScams_getConfig } from './
 // prettier-ignore
 import type { getConfig as File_2025SeptemberProgressiveIdentifiers_getConfig } from './pages/2025/september/progressive-identifiers';
 // prettier-ignore
-import type { getConfig as File_NotFound_getConfig } from './pages/[...notFound]';
+import type { getConfig as File_404_getConfig } from './pages/404';
 // prettier-ignore
 import type { getConfig as File_Sandbox_getConfig } from './pages/__sandbox';
 // prettier-ignore
@@ -677,7 +677,7 @@ type Page =
 | ({ path: '/2025/september/link-nextjs-is-infuriating' } & GetConfigResponse<typeof File_2025SeptemberLinkNextjsIsInfuriating_getConfig>)
 | ({ path: '/2025/september/new-github-scams' } & GetConfigResponse<typeof File_2025SeptemberNewGithubScams_getConfig>)
 | ({ path: '/2025/september/progressive-identifiers' } & GetConfigResponse<typeof File_2025SeptemberProgressiveIdentifiers_getConfig>)
-| ({ path: '/[...notFound]' } & GetConfigResponse<typeof File_NotFound_getConfig>)
+| ({ path: '/404' } & GetConfigResponse<typeof File_404_getConfig>)
 | ({ path: '/__sandbox' } & GetConfigResponse<typeof File_Sandbox_getConfig>)
 | { path: '/_root'; render: 'dynamic' }
 | ({ path: '/about' } & GetConfigResponse<typeof File_About_getConfig>)

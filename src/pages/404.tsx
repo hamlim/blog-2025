@@ -1,11 +1,7 @@
 import { ProseContainer } from "#/components/container";
 import { Heading } from "#/components/heading";
 
-export default function NotFound({
-  notFound: __notFound,
-}: {
-  notFound: Array<string>;
-}) {
+export default function NotFound() {
   return (
     <main className="pt-10">
       <title>404</title>
@@ -24,3 +20,4 @@ export function getConfig() {
     render: "dynamic",
   };
 }
+
