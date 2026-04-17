@@ -4,6 +4,27 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let recentPosts: Array<HydratedFrontmatter> = [
   {
+    "title": "The Agentic Engineering Scale",
+    "slug": "the-agentic-engineering-scale",
+    "path": "/2026/april/the-agentic-engineering-scale",
+    "date": 1776446300000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "AI",
+      "Software Development",
+      "Engineering",
+      "Agentic Engineering"
+    ],
+    "description": "A brief outline of how I think of the scale of adoption of AI in software development",
+    "month": "april",
+    "year": 2026,
+    "ogImage": "/og-images/the-agentic-engineering-scale.png",
+    "blueskyPostUri": "",
+    "location": "Stamford, CT",
+    "lastModified": null
+  },
+  {
     "title": "Onboarding Your New AI Teammate",
     "slug": "onboarding-your-new-ai-teammate",
     "path": "/2025/december/onboarding-your-new-ai-teammate",
@@ -86,25 +107,5 @@ export let recentPosts: Array<HydratedFrontmatter> = [
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lzk4qlbqhs2v",
     "location": "Boston, MA",
     "lastModified": 1758673985000
-  },
-  {
-    "title": "In Review - The Nuphy Air75 V3",
-    "slug": "in-review-the-nuphy-air75-v3",
-    "path": "/2025/september/in-review-the-nuphy-air75-v3",
-    "date": 1757519010725,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Product Review",
-      "Gear",
-      "Keyboard"
-    ],
-    "description": "I recently changed out my keyboard for daily use from the Nuphy Air75 V2 to the V3 model - and i've had a mixed experience in that change that I figured I should share more broadly.",
-    "month": "september",
-    "year": 2025,
-    "ogImage": "/og-images/in-review-the-nuphy-air75-v3.png",
-    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lyimhbhi222s",
-    "location": "Boston, MA",
-    "lastModified": 1757520414000
   }
 ]

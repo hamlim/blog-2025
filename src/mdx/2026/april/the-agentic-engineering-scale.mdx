@@ -1,0 +1,51 @@
+---
+title: "The Agentic Engineering Scale"
+slug: the-agentic-engineering-scale
+path: /2026/april/the-agentic-engineering-scale
+date: 1776446300000
+status: public
+type: blog-post
+tags:
+  - AI
+  - Software Development
+  - Engineering
+  - Agentic Engineering
+description: 'A brief outline of how I think of the scale of adoption of AI in software development'
+month: april
+year: 2026
+ogImage: /og-images/the-agentic-engineering-scale.png
+blueskyPostUri: ""
+location: "Stamford, CT"
+---
+
+There's an emerging scale in the software industry around how engineers are adopting AI assisted development in their workflows. So far I've mostly seen this been shared around in smaller circles, or within individual organizations, and I expect that a formal definition may never arrive and it will continue to shift as we get better and better tools in the space.
+
+That being said - I at least wanted to document what that scale looks like today, from my perspective and see if it resonates with others as well.
+
+I've mostly broken it down into 6 tiers:
+
+0. Effectively no AI use
+
+	a. The engineer writes all their code by hand
+	b. The only interface to AI is mostly the same way that we used to collectively use StackOverflow or Google
+1. Minimal AI usage
+
+	a. The engineer uses editor auto-complete, or tab suggestions only
+2. Agentic Beginner
+
+	a. This engineer is beginning to use tools like Claude Code, Codex, Opencode, etc, however they often will still run those with strict permissions, manually reviewing and accepting changes or actions by the agent
+3. Agentic Intermediate
+
+	a. This engineer is more hands off than the previous one with their use of agent harnesses
+	b. Likely running 2-3 additional agents, but mostly on completely unrelated tasks or repos
+	c. May be running their agents in "yolo"-mode, but still reviewing the changes at the end of the session by hand
+4. Agentic Advanced
+
+	a. Running multiple agents at once on the same task (e.g. using sub agents or agent teams/swarms)
+	b. Heavily relying on agents to self-review changes, however they may still review some changes here and there
+5. Agentic Everywhere
+
+	a. Using agent orchestration tools like Gas Town
+	b. Rarely, if ever, reviewing the code or implementation, they may not even know what the codebase looks like - instead their reviews focus on higher level details like user experience or taste
+
+One notable caveat is that one might assume Vibe-coders (using the strict definition of the phrase) may automatically fall within tiers 4 or 5 above - however I think they likely have some attributes that make them look like they're operating at those tiers but often lack the rigor that shows up for disciplined engineers operating at those levels (e.g. rigor in terms of the quality of the prompts, or the guardrails they have in place to get the agents/agent swarms to produce the desired results).

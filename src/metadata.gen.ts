@@ -5,6 +5,27 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let metadata: Array<HydratedFrontmatter> = [
   {
+    "title": "The Agentic Engineering Scale",
+    "slug": "the-agentic-engineering-scale",
+    "path": "/2026/april/the-agentic-engineering-scale",
+    "date": 1776446300000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "AI",
+      "Software Development",
+      "Engineering",
+      "Agentic Engineering"
+    ],
+    "description": "A brief outline of how I think of the scale of adoption of AI in software development",
+    "month": "april",
+    "year": 2026,
+    "ogImage": "/og-images/the-agentic-engineering-scale.png",
+    "blueskyPostUri": "",
+    "location": "Stamford, CT",
+    "lastModified": null
+  },
+  {
     "title": "Onboarding Your New AI Teammate",
     "slug": "onboarding-your-new-ai-teammate",
     "path": "/2025/december/onboarding-your-new-ai-teammate",
