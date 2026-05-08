@@ -4,7 +4,7 @@
         <title>Matt Hamlin's Blog</title>
         <link>https://matthamlin.me</link>
         <description>Matt Hamlin's Blog</description>
-        <lastBuildDate>Fri, 17 Apr 2026 17:25:46 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 08 May 2026 21:24:16 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Matt by Hand</generator>
         <language>en</language>
@@ -105,6 +105,12 @@ Projects like <a href="https://github.com/steveyegge/beads">Beads</a> are a good
 <ul>
 <li>Don&#x27;t provide estimates for a project without talking to the team working on it directly first</li>
 <li>Don&#x27;t say the team is doing well without asking how the team is doing first</li>
+</ul>
+</li>
+<li>Ask for status updates at 5pm on a Friday<!-- -->
+<ul>
+<li>If the team is in a crunch period, communicate early and similarly ask for updates earlier</li>
+<li>Nothing is ever so critical that it needs to be responded to at 5pm on a Friday - save it for Monday morning</li>
 </ul>
 </li>
 </ul>]]></content:encoded>

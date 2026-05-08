@@ -23,7 +23,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "ogImage": "/og-images/the-agentic-engineering-scale.png",
     "blueskyPostUri": "",
     "location": "Stamford, CT",
-    "lastModified": null
+    "lastModified": 1776447350000
   },
   {
     "title": "Onboarding Your New AI Teammate",
