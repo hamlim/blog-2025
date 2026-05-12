@@ -4,6 +4,26 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let recentPosts: Array<HydratedFrontmatter> = [
   {
+    "title": "Performative Engineering",
+    "slug": "performative-engineering",
+    "path": "/2026/may/performative-engineering",
+    "date": 1778617183666,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "AI",
+      "Software Development",
+      "Engineering"
+    ],
+    "description": "The act of making noise and delivering output instead of outcomes",
+    "month": "may",
+    "year": 2026,
+    "ogImage": "/og-images/performative-engineering.png",
+    "blueskyPostUri": "",
+    "location": "Boston, MA",
+    "lastModified": null
+  },
+  {
     "title": "The Agentic Engineering Scale",
     "slug": "the-agentic-engineering-scale",
     "path": "/2026/april/the-agentic-engineering-scale",
@@ -68,7 +88,7 @@ export let recentPosts: Array<HydratedFrontmatter> = [
     "ogImage": "/og-images/things-leaders-should-never-do.png",
     "blueskyPostUri": "",
     "location": "Stamford, CT",
-    "lastModified": 1764188765000
+    "lastModified": 1778275711000
   },
   {
     "title": "In Review - I, Robot",
@@ -89,23 +109,5 @@ export let recentPosts: Array<HydratedFrontmatter> = [
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lzyxwwor5c2r",
     "location": "Boston, MA",
     "lastModified": 1759182020000
-  },
-  {
-    "title": "New GitHub Scams",
-    "slug": "new-github-scams",
-    "path": "/2025/september/new-github-scams",
-    "date": 1758668706993,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "GitHub"
-    ],
-    "description": "The scammers/spammers on GitHub are getting a bit more creative!",
-    "month": "september",
-    "year": 2025,
-    "ogImage": "/og-images/new-github-scams.png",
-    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lzk4qlbqhs2v",
-    "location": "Boston, MA",
-    "lastModified": 1758673985000
   }
 ]

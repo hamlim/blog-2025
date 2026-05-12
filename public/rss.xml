@@ -4,7 +4,7 @@
         <title>Matt Hamlin's Blog</title>
         <link>https://matthamlin.me</link>
         <description>Matt Hamlin's Blog</description>
-        <lastBuildDate>Fri, 08 May 2026 21:24:16 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 12 May 2026 20:23:18 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Matt by Hand</generator>
         <language>en</language>
@@ -14,6 +14,27 @@
             <link>https://matthamlin.me</link>
         </image>
         <copyright>© 2025 Matt Hamlin</copyright>
+        <item>
+            <title><![CDATA[Performative Engineering]]></title>
+            <link>https://matthamlin.me//2026/may/performative-engineering</link>
+            <guid>https://matthamlin.me//2026/may/performative-engineering</guid>
+            <pubDate>Tue, 12 May 2026 20:19:43 GMT</pubDate>
+            <description><![CDATA[The act of making noise and delivering output instead of outcomes]]></description>
+            <content:encoded><![CDATA[<p>There’s been a decent amount of <a href="https://nooneshappy.com/article/appearing-productive-in-the-workplace/">writing published as of late</a> about the uptick in work that looks like work, but isn’t actual work.</p>
+<p>I’ve started internalizing this concept as <em>“performative engineering”</em>.</p>
+<p>This isn’t a net-new concept with AI and agents, but its definitely become more prevalent thanks to them.</p>
+<p>When I talk about performative engineering, I mean things like:</p>
+<ul>
+<li>Announcing a new internal agent harness that you’ve spent the past week vibe coding</li>
+<li>Promoting a set of <del>markdown documents</del> <em>skills</em> to the <code>#engineering</code> slack channel</li>
+</ul>
+<p>Counter to what you might be thinking, I am a proponent for building better tooling, however I feel like a lot of engineers are optimizing for the <a href="https://x.com/championswimmer/status/2051807284691612099">output instead of the outcome</a> thanks to AI and agents in general.</p>
+<p>These explorations can be useful, and spending time to feel out the capabilities and whats possible is great, also sharing those learnings with others is a good thing too.</p>
+<p>However the sense I’m starting to get is that leadership at companies will start to bias towards seeing these efforts as a signal that those individuals are shipping value to customers as opposed to improving the bottom line.</p>
+<p>I don’t really know where we go from here. I honestly am pretty torn on what to optimize for at the moment, e.g. should I lean into this performative engineering trend to get visibility? Or risk being overlooked by focusing on the users that my team directly serves?</p>]]></content:encoded>
+            <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
+            <enclosure url="https://matthamlin.me/og-images/performative-engineering.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[The Agentic Engineering Scale]]></title>
             <link>https://matthamlin.me//2026/april/the-agentic-engineering-scale</link>

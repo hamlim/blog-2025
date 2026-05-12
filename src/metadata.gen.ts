@@ -5,6 +5,26 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let metadata: Array<HydratedFrontmatter> = [
   {
+    "title": "Performative Engineering",
+    "slug": "performative-engineering",
+    "path": "/2026/may/performative-engineering",
+    "date": 1778617183666,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "AI",
+      "Software Development",
+      "Engineering"
+    ],
+    "description": "The act of making noise and delivering output instead of outcomes",
+    "month": "may",
+    "year": 2026,
+    "ogImage": "/og-images/performative-engineering.png",
+    "blueskyPostUri": "",
+    "location": "Boston, MA",
+    "lastModified": null
+  },
+  {
     "title": "The Agentic Engineering Scale",
     "slug": "the-agentic-engineering-scale",
     "path": "/2026/april/the-agentic-engineering-scale",
@@ -69,7 +89,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "ogImage": "/og-images/things-leaders-should-never-do.png",
     "blueskyPostUri": "",
     "location": "Stamford, CT",
-    "lastModified": 1764188765000
+    "lastModified": 1778275711000
   },
   {
     "title": "Tip: Secrets for Cloudflare Workers",
