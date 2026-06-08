@@ -146,7 +146,7 @@ export let projects: Array<{
     ),
   },
   {
-    link: "https://github.com/hamlim/projects/tree/master/packages/reroute-core",
+    link: "https://github.com/hamlim/projects-old/tree/master/packages/reroute-core",
     title: "Reroute",
     description: "A React router package built for Suspense using hooks",
   },
