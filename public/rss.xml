@@ -4,7 +4,7 @@
         <title>Matt Hamlin's Blog</title>
         <link>https://matthamlin.me</link>
         <description>Matt Hamlin's Blog</description>
-        <lastBuildDate>Tue, 12 May 2026 20:23:18 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 16 Jul 2026 12:58:11 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Matt by Hand</generator>
         <language>en</language>
@@ -14,6 +14,17 @@
             <link>https://matthamlin.me</link>
         </image>
         <copyright>© 2025 Matt Hamlin</copyright>
+        <item>
+            <title><![CDATA[Quick-Tip: Codex Chief of Staff Thread]]></title>
+            <link>https://matthamlin.me//2026/july/quick-tip-codex-chief-of-staff-thread</link>
+            <guid>https://matthamlin.me//2026/july/quick-tip-codex-chief-of-staff-thread</guid>
+            <pubDate>Thu, 16 Jul 2026 12:53:10 GMT</pubDate>
+            <description><![CDATA[Status Update: July 16, 2026]]></description>
+            <content:encoded><![CDATA[<p>If you&#x27;re using Codex (or the new ChatGPT for Work) features within the ChatGPT app, I recommend spinning up a dedicated chat thread called your <a href="https://jxnl.co/writing/2026/05/10/codex-maxxing/">Chief of Staff</a>. This thread can now become your go-to thread for coordinating your work, keeping you up to date on new emails/events/etc, and generally acting as a first touch point for any work you want to do.</p>
+<p>Codex/ChatGPT for Work also has the ability for threads to spin up other threads for you, so I often start from my Chief of Staff thread which is pinned in the app, and tell it that I want to work on something and have it spin up a dedicated thread for that work for me.</p>]]></content:encoded>
+            <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
+            <enclosure url="https://matthamlin.me/og-images/quick-tip-codex-chief-of-staff-thread.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Performative Engineering]]></title>
             <link>https://matthamlin.me//2026/may/performative-engineering</link>

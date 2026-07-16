@@ -4,6 +4,25 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let recentMicroposts: Array<HydratedFrontmatter> = [
   {
+    "title": "Quick-Tip: Codex Chief of Staff Thread",
+    "slug": "quick-tip-codex-chief-of-staff-thread",
+    "path": "/2026/july/quick-tip-codex-chief-of-staff-thread",
+    "date": 1784206390517,
+    "status": "public",
+    "type": "micropost",
+    "tags": [
+      "micropost",
+      "Tip",
+      "Codex"
+    ],
+    "month": "july",
+    "year": 2026,
+    "ogImage": "/og-images/quick-tip-codex-chief-of-staff-thread.png",
+    "blueskyPostUri": "",
+    "location": "Boston, MA",
+    "lastModified": null
+  },
+  {
     "title": "Tip: Secrets for Cloudflare Workers",
     "slug": "secrets-for-cloudflare-workers",
     "path": "/2025/november/secrets-for-cloudflare-workers",
@@ -78,23 +97,5 @@ export let recentMicroposts: Array<HydratedFrontmatter> = [
     "blueskyPostUri": "",
     "location": "Boston, MA",
     "lastModified": 1756314841000
-  },
-  {
-    "title": "Link: What the hell is going on right now?",
-    "slug": "link-what-the-hell-is-going-on-right-now",
-    "path": "/2025/august/link-what-the-hell-is-going-on-right-now",
-    "date": 1755910704752,
-    "status": "public",
-    "type": "micropost",
-    "tags": [
-      "micropost",
-      "Links"
-    ],
-    "month": "august",
-    "year": 2025,
-    "ogImage": "/og-images/link-what-the-hell-is-going-on-right-now.png",
-    "blueskyPostUri": "",
-    "location": "Boston, MA",
-    "lastModified": 1755911334000
   }
 ]

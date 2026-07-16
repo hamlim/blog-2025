@@ -21,7 +21,7 @@ export let recentPosts: Array<HydratedFrontmatter> = [
     "ogImage": "/og-images/performative-engineering.png",
     "blueskyPostUri": "",
     "location": "Boston, MA",
-    "lastModified": null
+    "lastModified": 1778617464000
   },
   {
     "title": "The Agentic Engineering Scale",

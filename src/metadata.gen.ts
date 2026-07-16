@@ -5,6 +5,25 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let metadata: Array<HydratedFrontmatter> = [
   {
+    "title": "Quick-Tip: Codex Chief of Staff Thread",
+    "slug": "quick-tip-codex-chief-of-staff-thread",
+    "path": "/2026/july/quick-tip-codex-chief-of-staff-thread",
+    "date": 1784206390517,
+    "status": "public",
+    "type": "micropost",
+    "tags": [
+      "micropost",
+      "Tip",
+      "Codex"
+    ],
+    "month": "july",
+    "year": 2026,
+    "ogImage": "/og-images/quick-tip-codex-chief-of-staff-thread.png",
+    "blueskyPostUri": "",
+    "location": "Boston, MA",
+    "lastModified": null
+  },
+  {
     "title": "Performative Engineering",
     "slug": "performative-engineering",
     "path": "/2026/may/performative-engineering",
@@ -22,7 +41,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "ogImage": "/og-images/performative-engineering.png",
     "blueskyPostUri": "",
     "location": "Boston, MA",
-    "lastModified": null
+    "lastModified": 1778617464000
   },
   {
     "title": "The Agentic Engineering Scale",
