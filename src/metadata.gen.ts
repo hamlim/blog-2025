@@ -5,6 +5,27 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let metadata: Array<HydratedFrontmatter> = [
   {
+    "title": "32",
+    "slug": "32",
+    "path": "/2026/july/32",
+    "date": 1784495087760,
+    "status": "draft",
+    "type": "blog-post",
+    "tags": [
+      "Random",
+      "Birthday",
+      "Goal",
+      "Resolutions"
+    ],
+    "description": "A quick recap of my goals from the past year and my one big goal looking forward.",
+    "month": "july",
+    "year": 2026,
+    "ogImage": "/og-images/32.png",
+    "blueskyPostUri": "",
+    "location": "Boston, MA",
+    "lastModified": null
+  },
+  {
     "title": "Quick-Tip: Codex Chief of Staff Thread",
     "slug": "quick-tip-codex-chief-of-staff-thread",
     "path": "/2026/july/quick-tip-codex-chief-of-staff-thread",
@@ -21,7 +42,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "ogImage": "/og-images/quick-tip-codex-chief-of-staff-thread.png",
     "blueskyPostUri": "",
     "location": "Boston, MA",
-    "lastModified": null
+    "lastModified": 1784206705000
   },
   {
     "title": "Performative Engineering",

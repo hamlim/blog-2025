@@ -20,7 +20,7 @@ export let recentMicroposts: Array<HydratedFrontmatter> = [
     "ogImage": "/og-images/quick-tip-codex-chief-of-staff-thread.png",
     "blueskyPostUri": "",
     "location": "Boston, MA",
-    "lastModified": null
+    "lastModified": 1784206705000
   },
   {
     "title": "Tip: Secrets for Cloudflare Workers",
