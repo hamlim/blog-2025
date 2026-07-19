@@ -46,7 +46,7 @@ function dayOffset(date: string): number {
 }
 
 type Point = { x: number; y: number };
-type Series = { label: string; points: Array<Point> };
+type Series = { year: number; label: string; points: Array<Point> };
 
 function buildSeries(
   metric: "steps" | "weight",
@@ -77,6 +77,7 @@ function buildSeries(
         });
       }
       return {
+        year,
         label: `’${String(year).slice(2)}–’${String(year + 1).slice(2)}`,
         points,
       };
@@ -90,9 +91,10 @@ type Theme = {
   ink: string;
   mutedInk: string;
   grid: string;
-  green: string;
-  // oldest -> newest; the current year always gets `green`
-  grays: Array<string>;
+  // fixed year -> hue mapping so a year keeps its color in every chart;
+  // both palettes pass all six checks in the dataviz palette validator
+  // against their surface (adjacent-pair CVD ΔE, chroma, contrast, band)
+  colors: Record<number, string>;
 };
 
 let themes: Record<"light" | "dark", Theme> = {
@@ -101,22 +103,37 @@ let themes: Record<"light" | "dark", Theme> = {
     ink: "#402622",
     mutedInk: "#6e4c41",
     grid: "#e0d6c9",
-    green: "#307b34",
-    grays: ["#a8a29e", "#8a8178", "#6b6259", "#48423c"],
+    colors: {
+      2021: "#9f1239",
+      2022: "#6d28d9",
+      2023: "#b45309",
+      2024: "#2563eb",
+      2025: "#307b34",
+    },
   },
   dark: {
     surface: "#1c2b1f",
     ink: "#efeae4",
     mutedInk: "#d9d0c3",
     grid: "#3c493b",
-    green: "#4dae50",
-    grays: ["#6f6a60", "#87816f", "#a49d8d", "#cfc9bf"],
+    colors: {
+      2021: "#d8537b",
+      2022: "#9b7df0",
+      2023: "#c8800a",
+      2024: "#4f8ce8",
+      2025: "#41a246",
+    },
   },
 };
 
-// dash patterns are the identity carrier for past years (oldest -> newest),
-// so overlapping gray lines stay tellable-apart without numeric scales
-let dashes = ["3 7", "9 7", "18 7", "30 7"];
+// dash patterns back color up as an identity carrier: dotted, short dash,
+// long dash, dash-dot; the current year is the only solid line
+let dashesByYear: Record<number, string> = {
+  2021: "2 9",
+  2022: "10 9",
+  2023: "24 9",
+  2024: "28 9 4 9",
+};
 
 let WIDTH = 2400;
 let HEIGHT = 1200;
@@ -170,21 +187,16 @@ function renderChart({
   MONTH_STARTS.forEach((start, i) => {
     let mid = sx(start + 15);
     parts.push(
-      `<text x="${mid}" y="${MARGIN.top + plotH + 52}" fill="${theme.mutedInk}" font-size="28" text-anchor="middle">${MONTHS[i]}</text>`,
+      `<text x="${mid}" y="${MARGIN.top + plotH + 54}" fill="${theme.mutedInk}" font-size="30" text-anchor="middle">${MONTHS[i]}</text>`,
     );
   });
 
   // series lines, oldest first so the current year draws on top
-  let lastGray = -1;
   series.forEach((s, i) => {
     let isCurrent = i === series.length - 1;
-    let color = isCurrent
-      ? theme.green
-      : (theme.grays[Math.min(++lastGray, theme.grays.length - 1)] as string);
-    let dash = isCurrent
-      ? ""
-      : ` stroke-dasharray="${dashes[Math.min(lastGray, dashes.length - 1)]}"`;
-    let width = isCurrent ? 5 : 3;
+    let color = theme.colors[s.year] as string;
+    let dash = isCurrent ? "" : ` stroke-dasharray="${dashesByYear[s.year]}"`;
+    let width = isCurrent ? 5 : 3.5;
 
     // break the path where there's a gap of more than 14 days
     let segments: Array<Array<Point>> = [];
@@ -220,34 +232,30 @@ function renderChart({
 
   // legend row: swatch (with its dash pattern) + year label
   let legendX = MARGIN.left;
-  lastGray = -1;
   series.forEach((s, i) => {
     let isCurrent = i === series.length - 1;
-    let color = isCurrent
-      ? theme.green
-      : (theme.grays[Math.min(++lastGray, theme.grays.length - 1)] as string);
-    let dash = isCurrent
-      ? ""
-      : ` stroke-dasharray="${dashes[Math.min(lastGray, dashes.length - 1)]}"`;
+    let color = theme.colors[s.year] as string;
+    let dash = isCurrent ? "" : ` stroke-dasharray="${dashesByYear[s.year]}"`;
     parts.push(
-      `<line x1="${legendX}" y1="${MARGIN.top - 42}" x2="${legendX + 64}" y2="${MARGIN.top - 42}" stroke="${color}" stroke-width="${isCurrent ? 5 : 3}"${dash} stroke-linecap="round"/>`,
-      `<text x="${legendX + 76}" y="${MARGIN.top - 32}" fill="${isCurrent ? theme.ink : theme.mutedInk}" font-size="28"${isCurrent ? ' font-weight="bold"' : ""}>${s.label}</text>`,
+      `<line x1="${legendX}" y1="${MARGIN.top - 46}" x2="${legendX + 96}" y2="${MARGIN.top - 46}" stroke="${color}" stroke-width="${isCurrent ? 6 : 4.5}"${dash} stroke-linecap="round"/>`,
+      `<text x="${legendX + 112}" y="${MARGIN.top - 34}" fill="${theme.ink}" font-size="34"${isCurrent ? ' font-weight="bold"' : ""}>${s.label}</text>`,
     );
-    legendX += 76 + s.label.length * 16 + 48;
+    legendX += 112 + s.label.length * 20 + 56;
   });
 
   // direct label at the end of the current year's line
   let current = series[series.length - 1] as Series;
   let lastPoint = current.points[current.points.length - 1] as Point;
+  let currentColor = theme.colors[current.year] as string;
   parts.push(
-    `<circle cx="${sx(lastPoint.x)}" cy="${sy(lastPoint.y)}" r="8" fill="${theme.green}"/>`,
-    `<text x="${sx(lastPoint.x) + 18}" y="${sy(lastPoint.y) + 9}" fill="${theme.ink}" font-size="28" font-weight="bold">${current.label}</text>`,
+    `<circle cx="${sx(lastPoint.x)}" cy="${sy(lastPoint.y)}" r="9" fill="${currentColor}"/>`,
+    `<text x="${sx(lastPoint.x) + 20}" y="${sy(lastPoint.y) + 11}" fill="${theme.ink}" font-size="34" font-weight="bold">${current.label}</text>`,
   );
 
   // axis title
   parts.push(
-    `<text x="${MARGIN.left}" y="${HEIGHT - 28}" fill="${theme.mutedInk}" font-size="28">${yLabel}</text>`,
-    `<text x="${MARGIN.left}" y="56" fill="${theme.ink}" font-size="36" font-weight="bold">${title}</text>`,
+    `<text x="${MARGIN.left}" y="${HEIGHT - 28}" fill="${theme.mutedInk}" font-size="30">${yLabel}</text>`,
+    `<text x="${MARGIN.left}" y="60" fill="${theme.ink}" font-size="42" font-weight="bold">${title}</text>`,
   );
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${WIDTH}" height="${HEIGHT}" font-family="Inter">${parts.join("\n")}</svg>`;
