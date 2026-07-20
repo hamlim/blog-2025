@@ -8,7 +8,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "title": "32",
     "slug": "32",
     "path": "/2026/july/32",
-    "date": 1784495087760,
+    "date": 1784545584921,
     "status": "public",
     "type": "blog-post",
     "tags": [
@@ -23,7 +23,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "ogImage": "/og-images/32.png",
     "blueskyPostUri": "",
     "location": "Boston, MA",
-    "lastModified": 1784495386000
+    "lastModified": 1784545448000
   },
   {
     "title": "Quick-Tip: Codex Chief of Staff Thread",
@@ -2026,7 +2026,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "year": 2023,
     "ogImage": "/og-images/29.png",
     "location": "Snohomish, WA",
-    "lastModified": 1750380818000
+    "lastModified": 1784545448000
   },
   {
     "title": "Principles for Automated Testing",

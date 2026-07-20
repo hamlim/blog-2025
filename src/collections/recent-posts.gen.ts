@@ -7,7 +7,7 @@ export let recentPosts: Array<HydratedFrontmatter> = [
     "title": "32",
     "slug": "32",
     "path": "/2026/july/32",
-    "date": 1784495087760,
+    "date": 1784545584921,
     "status": "public",
     "type": "blog-post",
     "tags": [
@@ -22,7 +22,7 @@ export let recentPosts: Array<HydratedFrontmatter> = [
     "ogImage": "/og-images/32.png",
     "blueskyPostUri": "",
     "location": "Boston, MA",
-    "lastModified": 1784495386000
+    "lastModified": 1784545448000
   },
   {
     "title": "Performative Engineering",
