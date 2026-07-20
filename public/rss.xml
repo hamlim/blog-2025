@@ -4,7 +4,7 @@
         <title>Matt Hamlin's Blog</title>
         <link>https://matthamlin.me</link>
         <description>Matt Hamlin's Blog</description>
-        <lastBuildDate>Sun, 19 Jul 2026 21:09:25 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 20 Jul 2026 00:47:52 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Matt by Hand</generator>
         <language>en</language>
@@ -485,7 +485,7 @@ Projects like <a href="https://github.com/steveyegge/beads">Beads</a> are a good
             <link>https://matthamlin.me//2025/august/link-what-the-hell-is-going-on-right-now</link>
             <guid>https://matthamlin.me//2025/august/link-what-the-hell-is-going-on-right-now</guid>
             <pubDate>Sat, 23 Aug 2025 00:58:24 GMT</pubDate>
-            <description><![CDATA[Status Update: August 23, 2025]]></description>
+            <description><![CDATA[Status Update: August 22, 2025]]></description>
             <content:encoded><![CDATA[<p>I recently (much like most folks who browse the orange site) stumbled across this excellent blog post titled <a href="https://catskull.net/what-the-hell-is-going-on-right-now.html">What the hell is going on right now?</a>, which I think pretty accurately summarizes how the field of software engineering is changing week-to-week and even day-to-day right now thanks to AI.</p>
 <p>I recommend giving the whole post a read - it&#x27;s not too long and reads quite easily too.</p>
 <p>Here&#x27;s some of the snippets that stood out to me:</p>
@@ -795,7 +795,7 @@ Projects like <a href="https://github.com/steveyegge/beads">Beads</a> are a good
             <link>https://matthamlin.me//2025/june/adding-microposts</link>
             <guid>https://matthamlin.me//2025/june/adding-microposts</guid>
             <pubDate>Fri, 20 Jun 2025 00:35:56 GMT</pubDate>
-            <description><![CDATA[Status Update: June 20, 2025]]></description>
+            <description><![CDATA[Status Update: June 19, 2025]]></description>
             <content:encoded><![CDATA[<p>I&#x27;m working on adding short-form (microblog-like) status updates (<code>microposts</code>) to my personal website.</p>
 <p>It&#x27;s not fully flushed (or fleshed?) out yet, so this may change in the near future!</p>
 <div class="rounded-lg bg-muted px-4 py-0.5"><p>I may not use these updates as much - but it seems like a nice low-friction way to share quick thoughts.</p><p>Next step is to build a mini web app to easily post them though!</p></div>]]></content:encoded>
