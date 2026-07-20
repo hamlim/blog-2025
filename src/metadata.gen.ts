@@ -9,7 +9,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "slug": "32",
     "path": "/2026/july/32",
     "date": 1784495087760,
-    "status": "draft",
+    "status": "public",
     "type": "blog-post",
     "tags": [
       "Random",
@@ -2021,11 +2021,11 @@ export let metadata: Array<HydratedFrontmatter> = [
       "Goals",
       "Resolutions"
     ],
-    "description": "",
+    "description": "on turning 29",
     "month": "july",
     "year": 2023,
     "ogImage": "/og-images/29.png",
-    "location": "",
+    "location": "Snohomish, WA",
     "lastModified": 1750380818000
   },
   {

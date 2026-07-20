@@ -4,7 +4,7 @@
         <title>Matt Hamlin's Blog</title>
         <link>https://matthamlin.me</link>
         <description>Matt Hamlin's Blog</description>
-        <lastBuildDate>Mon, 20 Jul 2026 00:47:52 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 20 Jul 2026 11:03:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Matt by Hand</generator>
         <language>en</language>
@@ -21,12 +21,7 @@
             <pubDate>Sun, 19 Jul 2026 21:04:47 GMT</pubDate>
             <description><![CDATA[A quick recap of my goals from the past year and my one big goal looking forward.]]></description>
             <content:encoded><![CDATA[<link rel="preload" as="image" href="/images/32/steps-per-day-light.png"/><link rel="preload" as="image" href="/images/32/weight-per-day-light.png"/><p>Another year in the books since <a href="/2025/july/31">my last birthday post</a>, and somehow this one felt even faster than the last!</p>
-<p>In the past year I&#x27;ve:</p>
-<ul>
-<li>TODO</li>
-<li>TODO</li>
-<li>TODO</li>
-</ul>
+<p>This last year I got married (just a month ago now!), while I barely did anything to help prepare for it (huge shoutout to my now wife for effectively working three jobs to design and plan out everything for us), its nice now not needing to plan for it.</p>
 <h2 class="text-3xl font-semibold text-gray-800 dark:text-gray-200" id="recap">Recap:</h2>
 <p>As always, I want to revisit the goals I set for myself in <a href="/2025/july/31">last year&#x27;s post</a>:</p>
 <ul>
@@ -35,21 +30,22 @@
 <li>Write more</li>
 </ul>
 <h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="health-">Health 🫤</h3>
-<p>TODO - reflect on the year: how tracking went, what worked, what fell off (and when).</p>
+<p>My health over the past year was best looked at as a story of three parts, the first third over the last year was pretty decent. I had started some of my health habits just before my last birthday and was really walking a ton and also tracking my calories a bit better.</p>
+<p>The middle third of the year was winter and I fell off on my morning walks, but I was still intermittently tracking my calories.</p>
+<p>The final third was a mixed bag - I slowly stopped tracking my calories and also wasn&#x27;t really getting out for my morning walks anymore either. I tried to mix in some walking here and there but it wasn&#x27;t to the same extent as before.</p>
 <p>This year I pulled together my steps and weight data going back five years - each line below is one &quot;birthday year&quot; (August through July), with the past year highlighted.</p>
-<img src="/images/32/steps-per-day-light.png" alt="A line chart plotting my steps per day (7 day average) across each of the past four birthday years, with the most recent year highlighted in green. TODO: describe the trend."/>
-<img src="/images/32/weight-per-day-light.png" alt="A line chart plotting my weight per day across each of the past five birthday years, with the most recent year highlighted in green. TODO: describe the trend."/>
-<h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="read-more">Read more</h3>
-<p>TODO - check the <a href="/bookshelf">bookshelf</a> and count books from the past year.</p>
-<h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="write-more">Write more</h3>
-<p>TODO - how many posts this year? How&#x27;s the idea backlog looking?</p>
+<img src="/images/32/steps-per-day-light.png" alt="A line chart plotting my steps per day (7 day average) across each of the past four birthday years, with the most recent year highlighted in green."/>
+<img src="/images/32/weight-per-day-light.png" alt="A line chart plotting my weight per day across each of the past five birthday years, with the most recent year highlighted in green."/>
+<h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="read-and-write-more">Read and Write more</h3>
+<p>I failed quite hard on both of these resolutions over the last year. I fell into a bit of a rut in terms of reading and couldn&#x27;t find a book that was holding my attention for long enough.</p>
+<p>Additionally on the writing front, work and also some of the planning/tasks for the wedding cut into my free time a bit (as well as Arc Raiders and Battlefield 6).</p>
 <h2 class="text-3xl font-semibold text-gray-800 dark:text-gray-200" id="goals">Goals:</h2>
 <p>This year I&#x27;m doing something different: instead of a handful of goals, I&#x27;m setting <strong>one</strong> primary resolution.</p>
 <h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="health">Health</h3>
-<p>If you&#x27;ve read my past few birthday posts, this will look familiar - health has been a recurring resolution for <a href="/2023/july/29">three</a> <a href="/2024/july/30">years</a> <a href="/2025/july/31">running</a>. And each year the same pattern plays out: I dedicate a solid stretch of effort - usually starting in the spring - and then give up somewhere in the winter.</p>
+<p>If you&#x27;ve read my past few birthday posts, this will look familiar - health has been a recurring resolution for <a href="/2023/july/29">three</a> <a href="/2024/july/30">years</a> <a href="/2025/july/31">running</a>. And each year the same pattern plays out: I dedicate a solid stretch of effort - usually starting in the summer or end of spring - and then give up somewhere in the winter.</p>
 <p>Looking at the charts above, you can literally see the pattern - the effort ramps up, then the cold sets in and the lines flatten out.</p>
 <p>So this year the goal isn&#x27;t &quot;get healthier&quot;, it&#x27;s to break that cycle: build habits that survive the winter, and turn health into a life-long habit instead of a 4-month-long one.</p>
-<p>TODO - concrete plan: what specifically will be different this winter?</p>]]></content:encoded>
+<p>Here&#x27;s to another year!</p>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/32.png" length="0" type="image/png"/>
         </item>
@@ -3946,6 +3942,7 @@ and then web apps &quot;register&quot; with the native app somehow...</p>
             <link>https://matthamlin.me//2023/july/29</link>
             <guid>https://matthamlin.me//2023/july/29</guid>
             <pubDate>Wed, 19 Jul 2023 18:36:58 GMT</pubDate>
+            <description><![CDATA[on turning 29]]></description>
             <content:encoded><![CDATA[<p>Tomorrow (assuming I push this post out tonight) is my 29th birthday. I usually
 don&#x27;t celebrate too big, this year I&#x27;m spending two weeks back on the west coast
 with family.</p>

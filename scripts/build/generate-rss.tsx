@@ -31,41 +31,32 @@ export async function generateRSS(metadata: Array<HydratedFrontmatter>) {
       let rawContent = await Bun.file(`./src/mdx/${meta.path}.mdx`).text();
       let { content } = matter(rawContent);
       try {
-        let transformedContent = await transformMdx(
-          content,
-          {
-            useMDXComponents() {
-              return {
-                ...defaultUseMDXComponents(),
-                BlueskyPost(props: {
-                  src: string;
-                  children: ReactNode;
-                }): ReactNode {
-                  return <a href={props.src}>{props.src}</a>;
-                },
-                ThemeImage(props: {
-                  lightSrc: string;
-                  darkSrc: string;
-                  alt: string;
-                }): ReactNode {
-                  return <img src={props.lightSrc} alt={props.alt} />;
-                },
-                Link(props: {
-                  to: string;
-                  children: ReactNode;
-                }): ReactNode {
-                  return <a href={props.to}>{props.children}</a>;
-                },
-                a(props: {
-                  href: string;
-                  children: ReactNode;
-                }): ReactNode {
-                  return <a href={props.href}>{props.children}</a>;
-                },
-              };
-            },
-          } as Parameters<typeof transformMdx>[1],
-        );
+        let transformedContent = await transformMdx(content, {
+          useMDXComponents() {
+            return {
+              ...defaultUseMDXComponents(),
+              BlueskyPost(props: {
+                src: string;
+                children: ReactNode;
+              }): ReactNode {
+                return <a href={props.src}>{props.src}</a>;
+              },
+              ThemeImage(props: {
+                lightSrc: string;
+                darkSrc: string;
+                alt: string;
+              }): ReactNode {
+                return <img src={props.lightSrc} alt={props.alt} />;
+              },
+              Link(props: { to: string; children: ReactNode }): ReactNode {
+                return <a href={props.to}>{props.children}</a>;
+              },
+              a(props: { href: string; children: ReactNode }): ReactNode {
+                return <a href={props.href}>{props.children}</a>;
+              },
+            };
+          },
+        } as Parameters<typeof transformMdx>[1]);
         return { ...meta, content: transformedContent };
       } catch (error) {
         console.error(`Error transforming content for ${meta.path}:`, error);
@@ -80,15 +71,14 @@ export async function generateRSS(metadata: Array<HydratedFrontmatter>) {
       title: meta.title,
       link: url,
       id: url,
-      description: meta.type === "micropost"
-        ? `Status Update: ${
-          new Date(meta.date).toLocaleDateString("en-US", {
-            month: "long",
-            day: "numeric",
-            year: "numeric",
-          })
-        }`
-        : meta.description || "",
+      description:
+        meta.type === "micropost"
+          ? `Status Update: ${new Date(meta.date).toLocaleDateString("en-US", {
+              month: "long",
+              day: "numeric",
+              year: "numeric",
+            })}`
+          : meta.description || "",
       date: new Date(meta.date),
       author: [
         {

@@ -55,7 +55,6 @@ export async function generateImage({
 }
 
 export async function generateOGImages(metadata: Array<HydratedFrontmatter>) {
-
   for (let meta of metadata) {
     let description =
       meta.type === "micropost"

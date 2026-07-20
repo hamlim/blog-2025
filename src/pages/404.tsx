@@ -20,4 +20,3 @@ export function getConfig() {
     render: "dynamic",
   };
 }
-

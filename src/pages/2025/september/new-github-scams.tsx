@@ -1,5 +1,7 @@
 import { Post } from "#/components/post";
-import Content, { frontmatter } from "#/mdx/2025/september/new-github-scams.mdx";
+import Content, {
+  frontmatter,
+} from "#/mdx/2025/september/new-github-scams.mdx";
 
 export default function Page() {
   return (
