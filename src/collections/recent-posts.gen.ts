@@ -4,6 +4,27 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let recentPosts: Array<HydratedFrontmatter> = [
   {
+    "title": "32",
+    "slug": "32",
+    "path": "/2026/july/32",
+    "date": 1784545584921,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Random",
+      "Birthday",
+      "Goal",
+      "Resolutions"
+    ],
+    "description": "A quick recap of my goals from the past year and my one big goal looking forward.",
+    "month": "july",
+    "year": 2026,
+    "ogImage": "/og-images/32.png",
+    "blueskyPostUri": "",
+    "location": "Boston, MA",
+    "lastModified": 1784545448000
+  },
+  {
     "title": "Performative Engineering",
     "slug": "performative-engineering",
     "path": "/2026/may/performative-engineering",
@@ -89,25 +110,5 @@ export let recentPosts: Array<HydratedFrontmatter> = [
     "blueskyPostUri": "",
     "location": "Stamford, CT",
     "lastModified": 1778275711000
-  },
-  {
-    "title": "In Review - I, Robot",
-    "slug": "in-review-i-robot",
-    "path": "/2025/september/in-review-i-robot",
-    "date": 1759181168550,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Book Review",
-      "Books",
-      "Thoughts"
-    ],
-    "description": "I've never read a book that has given me such a visceral reaction as 'I, Robot' has by Isaac Asimov",
-    "month": "september",
-    "year": 2025,
-    "ogImage": "/og-images/in-review-i-robot.png",
-    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lzyxwwor5c2r",
-    "location": "Boston, MA",
-    "lastModified": 1759182020000
   }
 ]

@@ -1,5 +1,7 @@
 import { Post } from "#/components/post";
-import Content, { frontmatter } from "#/mdx/2025/november/secrets-for-cloudflare-workers.mdx";
+import Content, {
+  frontmatter,
+} from "#/mdx/2025/november/secrets-for-cloudflare-workers.mdx";
 
 export default function Page() {
   return (

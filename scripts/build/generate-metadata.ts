@@ -4,10 +4,7 @@ import type { HydratedFrontmatter } from "#/types";
 
 let metadataPath = "./src/metadata.gen.ts";
 
-export async function generateMetadata(
-  metadata: Array<HydratedFrontmatter>,
-) {
-
+export async function generateMetadata(metadata: Array<HydratedFrontmatter>) {
   // metadata.gen.ts:
   // biome-ignore lint/correctness/noUnusedLabels: easy way to collapse related code with a label
   // biome-ignore lint/suspicious/noConfusingLabels: easy way to collapse related code with a label

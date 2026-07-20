@@ -5,6 +5,27 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let metadata: Array<HydratedFrontmatter> = [
   {
+    "title": "32",
+    "slug": "32",
+    "path": "/2026/july/32",
+    "date": 1784545584921,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Random",
+      "Birthday",
+      "Goal",
+      "Resolutions"
+    ],
+    "description": "A quick recap of my goals from the past year and my one big goal looking forward.",
+    "month": "july",
+    "year": 2026,
+    "ogImage": "/og-images/32.png",
+    "blueskyPostUri": "",
+    "location": "Boston, MA",
+    "lastModified": 1784545448000
+  },
+  {
     "title": "Quick-Tip: Codex Chief of Staff Thread",
     "slug": "quick-tip-codex-chief-of-staff-thread",
     "path": "/2026/july/quick-tip-codex-chief-of-staff-thread",
@@ -21,7 +42,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "ogImage": "/og-images/quick-tip-codex-chief-of-staff-thread.png",
     "blueskyPostUri": "",
     "location": "Boston, MA",
-    "lastModified": null
+    "lastModified": 1784206705000
   },
   {
     "title": "Performative Engineering",
@@ -2000,12 +2021,12 @@ export let metadata: Array<HydratedFrontmatter> = [
       "Goals",
       "Resolutions"
     ],
-    "description": "",
+    "description": "on turning 29",
     "month": "july",
     "year": 2023,
     "ogImage": "/og-images/29.png",
-    "location": "",
-    "lastModified": 1750380818000
+    "location": "Snohomish, WA",
+    "lastModified": 1784545448000
   },
   {
     "title": "Principles for Automated Testing",
