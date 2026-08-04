@@ -1,3 +1,5 @@
+# Disabled: The blog has moved to another repository.
+
 name: Deploy to Cloudflare Workers
 
 on:
